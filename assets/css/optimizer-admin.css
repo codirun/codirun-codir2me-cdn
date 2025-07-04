@@ -1,0 +1,160 @@
+/**
+ * Estilos para a página de administração da otimização de imagens
+ */
+
+.form-table td fieldset label {
+	display: block !important;
+}
+
+/* Estilos para a nova info box */
+.codir2me-info-box {
+	background-color: #f0f9ff;
+	border-left: 4px solid #0073aa;
+	padding: 15px 20px;
+	margin: 20px 0;
+	border-radius: 3px;
+}
+.codir2me-info-box p:last-child {
+	margin-bottom: 0;
+}
+
+/* Estilos específicos para a página de otimização */
+.codir2me-requirements-list {
+	margin: 15px 0;
+	padding: 15px;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+}
+
+.codir2me-requirement-status {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.codir2me-requirement-status.met .dashicons {
+	color: #46b450;
+}
+
+.codir2me-requirement-status.not-met .dashicons {
+	color: #dc3232;
+}
+
+.codir2me-critical-warning {
+	color: #dc3232;
+	font-weight: bold;
+	background-color: #fef7f1;
+	padding: 10px;
+	border-left: 4px solid #dc3232;
+	margin-top: 15px;
+}
+
+.codir2me-optimization-stats {
+	margin-top: 25px;
+}
+
+.codir2me-optimization-level strong {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.codir2me-optimization-level .level-desc {
+	font-size: 12px;
+	color: #666;
+	min-height: 36px;
+}
+
+.codir2me-optimization-level .level-indicator {
+	height: 5px;
+	background-color: #eee;
+	border-radius: 3px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.codir2me-optimization-level .level-indicator span {
+	display: block;
+	height: 100%;
+	background-color: #0073aa;
+}
+
+.codir2me-optimization-level.light .level-indicator span {
+	background-color: #7ad03a;
+}
+
+.codir2me-optimization-level.balanced .level-indicator span {
+	background-color: #ffb900;
+}
+
+.codir2me-optimization-level.aggressive .level-indicator span {
+	background-color: #dc3232;
+}
+
+.codir2me-next-gen-formats {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-bottom: 15px;
+}
+
+.codir2me-format-option {
+	align-items: center;
+	gap: 10px;
+	position: relative;
+	background-color: #f9f9f9;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 1px solid #eee;
+}
+
+.codir2me-format-label {
+	font-weight: 500;
+	margin-right: 10px;
+}
+
+.codir2me-format-info {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #e7f7e9;
+	border-left: 4px solid #46b450;
+	border-radius: 3px;
+}
+
+.codir2me-range-slider {
+	width: 300px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.codir2me-range-value {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.disabled-option {
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+.disabled-option input,
+.disabled-option label {
+	cursor: not-allowed;
+}
+
+.codir2me-optimization-level.disabled-option {
+	background-color: #f0f0f0;
+}
+
+/* Melhorar a visualização de checkbox desabilitado */
+input[type="checkbox"]:disabled + span.codir2me-toggle-slider {
+	background-color: #ccc;
+}
+
+input[type="checkbox"]:disabled + span.codir2me-toggle-slider:before {
+	background-color: #e0e0e0;
+}
+
+.codir2me-range-slider:disabled {
+	opacity: 0.5;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "codirun/codir2me-cdn",
+    "description": "Plugin WordPress para CDN R2 com AsyncAws",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "async-aws/s3": "^2.9"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Codirun\\CodirMe\\": "includes/"
+        }
+    }
+}

@@ -1,0 +1,5715 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Codirun R2 Media & Static CDN\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;sprintf;printf;_n\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: codirun-codir2me-cdn.php\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: codirun-codir2me-cdn.php:31
+msgid "O plugin Codirun R2 Media & Static CDN requer WordPress 5.6 ou superior. Por favor, atualize o WordPress para usar este plugin."
+msgstr ""
+
+#: codirun-codir2me-cdn.php:50
+msgid "O plugin Codirun R2 Media & Static CDN requer PHP 7.4 ou superior. Por favor, entre em contato com seu provedor de hospedagem para atualizar sua versão do PHP."
+msgstr ""
+
+#: codirun-codir2me-cdn.php:263
+msgid "PHP ERROR"
+msgstr ""
+
+#: codirun-codir2me-cdn.php:266
+msgid "Fatal Error"
+msgstr ""
+
+#: codirun-codir2me-cdn.php:269
+msgid "Warning"
+msgstr ""
+
+#: codirun-codir2me-cdn.php:272
+msgid "Notice"
+msgstr ""
+
+#: codirun-codir2me-cdn.php:275
+msgid "Deprecated"
+msgstr ""
+
+#: codirun-codir2me-cdn.php:357
+msgid "R2 Static & Media CDN: Todas as classes foram carregadas com sucesso."
+msgstr ""
+
+#: codirun-codir2me-cdn.php:360
+msgid "R2 Static & Media CDN: Falha ao carregar uma ou mais classes do plugin."
+msgstr ""
+
+#: codirun-codir2me-cdn.php:615
+msgid "O plugin R2 Static & Media CDN agora usa AsyncAws S3 para melhor performance. Por favor, instale o AsyncAws S3 executando:"
+msgstr ""
+
+#: codirun-codir2me-cdn.php:617
+#: includes/admin/class-codir2me-admin-ui-general.php:291
+msgid "Ou baixe e extraia manualmente na pasta vendor/ do plugin."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:95
+msgid "AsyncAws SDK não encontrado. Por favor, instale o SDK primeiro."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:101
+msgid "Classe AsyncAws\\S3\\S3Client não encontrada."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:111
+msgid "Configurações do R2 incompletas. Verifique as credenciais."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:143
+#: includes/admin/class-codir2me-admin-ui-delete.php:277
+#: includes/admin/class-codir2me-admin-ui-delete.php:458
+#: includes/admin/class-codir2me-admin-ui-delete.php:555
+#: includes/admin/class-codir2me-admin-ui-delete.php:570
+#: includes/admin/class-codir2me-admin-ui-delete.php:585
+#: includes/class-codir2me-image-reprocessor.php:2480
+msgid "Falha na verificação de segurança."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:152
+#: includes/admin/class-codir2me-admin-ui-delete.php:286
+msgid "Sem permissão."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:163
+#: includes/admin/class-codir2me-admin-ui-delete.php:297
+msgid "Configurações R2 incompletas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:196
+msgid "Bucket contém arquivos para excluir."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:197
+msgid "Bucket está vazio - nada para excluir."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:206
+#, php-format
+msgid "Erro ao verificar bucket: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:384
+#, php-format
+msgid "Processando... %1$d arquivos excluídos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:406
+#, php-format
+msgid "Exclusão completa! %d arquivos excluídos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:409
+msgid "Bucket estava vazio."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:425
+#, php-format
+msgid "Erro na exclusão: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:462
+#: includes/admin/class-codir2me-admin-ui-delete.php:559
+#: includes/admin/class-codir2me-admin-ui-delete.php:574
+#: includes/admin/class-codir2me-admin-ui-delete.php:589
+#: includes/admin/class-codir2me-admin-ui-delete.php:1256
+#: includes/admin/class-codir2me-admin-ui-delete.php:1279
+#: includes/admin/class-codir2me-admin-ui-delete.php:1313
+#: includes/class-codir2me-image-reprocessor.php:2485
+msgid "Você não tem permissão para executar esta ação."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:616
+msgid "Exclusão rápida concluída!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:619
+#, php-format
+msgid "%d arquivos foram excluídos permanentemente do seu bucket R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:632
+msgid "Erro na exclusão rápida:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:644
+msgid "As configurações de conexão com o R2 estão incompletas. Por favor, configure suas credenciais na aba Configurações Gerais."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:662
+msgid "Status Atual do R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:669
+msgid "Arquivos Estáticos Enviados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:679
+#: includes/admin/class-codir2me-admin-ui-images.php:274
+msgid "Imagens Enviadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:689
+#: includes/admin/class-codir2me-admin-ui-delete.php:717
+#: includes/admin/class-codir2me-admin-ui-delete.php:1140
+msgid "Exclusão Automática"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:691
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:197
+msgid "Ativada"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:691
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:197
+msgid "Desativada"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:699
+msgid "A exclusão de arquivos no R2 é permanente. Se você excluir os arquivos, precisará fazer o upload novamente para restaurá-los."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:718
+msgid "Configure como as imagens devem ser excluídas automaticamente do R2 quando forem removidas do WordPress."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:725
+msgid "Status da Exclusão Automática"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:731
+msgid "Excluir automaticamente do R2 quando uma imagem for excluída do WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:735
+msgid "Opções de Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:738
+msgid "Opções de Exclusão de Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:741
+msgid "Excluir a imagem original e todas as suas miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:742
+msgid "Quando uma imagem for excluída do WordPress, remove tanto a imagem original quanto todas as suas miniaturas do R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:747
+msgid "Excluir a imagem original e apenas tamanhos específicos de miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:748
+msgid "Quando uma imagem for excluída do WordPress, remove a imagem original e apenas os tamanhos de miniatura selecionados abaixo."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:753
+msgid "Excluir apenas a imagem original, manter todas as miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:754
+msgid "Quando uma imagem for excluída do WordPress, remove apenas a imagem original do R2, mantendo todas as miniaturas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:760
+#: includes/admin/class-codir2me-admin-ui-images.php:158
+#: includes/admin/class-codir2me-admin-ui-scanner.php:903
+msgid "Selecionar Todos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:761
+#: includes/admin/class-codir2me-admin-ui-images.php:159
+#: includes/admin/class-codir2me-admin-ui-scanner.php:904
+msgid "Desmarcar Todos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:791
+msgid "Salvar Configurações de Exclusão Automática"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:810
+msgid "Exclusão Manual de Arquivos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:811
+msgid "Selecione arquivos específicos para excluir manualmente do seu bucket R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:839
+#: includes/admin/class-codir2me-admin-ui-delete.php:1070
+msgid "Exclusão em Andamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:843
+#: includes/admin/class-codir2me-admin-ui-delete.php:1079
+#: includes/admin/class-codir2me-admin-ui-static.php:478
+msgid "Arquivos processados:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:844
+#: includes/admin/class-codir2me-admin-ui-delete.php:848
+#: includes/admin/class-codir2me-admin-ui-images.php:359
+#: includes/admin/class-codir2me-admin-ui-images.php:363
+#: includes/admin/class-codir2me-admin-ui-static.php:479
+#: includes/admin/class-codir2me-admin-ui-static.php:483
+#: includes/class-codir2me-image-reprocessor.php:2276
+msgid "de"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:847
+#: includes/admin/class-codir2me-admin-ui-images.php:362
+#: includes/admin/class-codir2me-admin-ui-static.php:482
+msgid "Lotes processados:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:852
+msgid "Modo de processamento:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:853
+msgid "Em segundo plano"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:853
+msgid "(Pausado)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:853
+msgid "(Ativo)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:880
+msgid "O processo está pausado. Clique em \"Retomar\" para continuar a exclusão."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:882
+msgid "O processo está rodando em segundo plano. Você pode fechar esta página."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:887
+#: includes/admin/class-codir2me-admin-ui-delete.php:1088
+#: includes/admin/class-codir2me-admin-ui-images.php:371
+#: includes/admin/class-codir2me-admin-ui-static.php:491
+#: includes/class-codir2me-image-reprocessor.php:2291
+msgid "Por favor, não feche esta página até que o processo termine."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:894
+msgid "Continuar Exclusão (Próximo Lote)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:904
+msgid "Parar Exclusão"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:910
+msgid "A qualquer momento você pode verificar o progresso voltando a esta página."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:930
+#: includes/admin/class-codir2me-admin-ui-images.php:129
+#: includes/admin/class-codir2me-admin-ui-static.php:98
+#: includes/class-codir2me-image-reprocessor.php:2197
+msgid "Tamanho do Lote"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:933
+msgid "Número de arquivos a serem excluídos por lote (recomendado: 50)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:938
+msgid "Modo de Processamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:942
+msgid "Processamento imediato (manter página aberta)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:944
+msgid "Os arquivos serão excluídos imediatamente, mas você precisará manter esta página aberta."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:950
+msgid "Processamento em segundo plano"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:952
+msgid "A exclusão acontecerá em segundo plano, permitindo que você continue usando o WordPress."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:960
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1744
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1899
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1971
+#: includes/admin/class-codir2me-admin-ui.php:609
+#: includes/class-codir2me-admin.php:560 includes/class-codir2me-admin.php:561
+msgid "Arquivos Estáticos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:966
+#, php-format
+msgid "Excluir todos os arquivos estáticos (%s arquivos)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:969
+msgid "Esta opção irá excluir todos os arquivos JS, CSS, SVG e fontes do seu bucket R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:975
+msgid "Exclusão Manual de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:979
+msgid "Todas as Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:985
+#, php-format
+msgid "Excluir todas as imagens (%s arquivos)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:988
+msgid "Esta opção irá excluir todas as imagens originais e miniaturas do seu bucket R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:993
+msgid "Apenas Imagens Originais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:999
+#, php-format
+msgid "Excluir apenas imagens originais (%s arquivos)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1002
+msgid "Esta opção irá excluir apenas as imagens originais, mantendo as miniaturas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1007
+msgid "Todas as Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1013
+#, php-format
+msgid "Excluir todas as miniaturas (%s arquivos)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1016
+msgid "Esta opção irá excluir todas as miniaturas, mantendo as imagens originais."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1022
+msgid "Excluir Arquivos Selecionados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1037
+msgid "Exclusão Rápida"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1038
+msgid "Esta opção excluirá TODOS os arquivos do seu bucket R2 sem possibilidade de desfazer."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1083
+#: includes/admin/class-codir2me-admin-ui-license.php:225
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:121
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:125
+#: includes/class-codir2me-image-reprocessor.php:2269
+msgid "Status:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1084
+msgid "Iniciando exclusão..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1103
+msgid "ATENÇÃO:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1104
+msgid "Esta ação é irreversível e excluirá todos os arquivos do seu bucket R2. Use com extremo cuidado."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1115
+msgid "Estou ciente de que esta ação excluirá TODOS os arquivos do bucket R2 e não pode ser desfeita."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1122
+msgid "Excluir Tudo Agora"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1142
+msgid "A exclusão automática remove os arquivos do R2 quando você exclui a imagem correspondente no WordPress."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1143
+#: includes/admin/class-codir2me-admin-ui-images.php:424
+#: includes/admin/class-codir2me-admin-ui-static.php:574
+msgid "Benefícios:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1145
+msgid "Mantém seu bucket R2 sincronizado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1146
+msgid "Evita acúmulo de arquivos não utilizados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1147
+msgid "Economiza espaço de armazenamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1153
+msgid "Exclusão Manual"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1155
+msgid "Use a exclusão manual para limpar grupos específicos de arquivos do seu bucket R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1156
+msgid "Casos de uso:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1158
+msgid "Remover arquivos de um tema antigo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1159
+msgid "Limpar arquivos de plugins desinstalados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1160
+msgid "Remover miniaturas específicas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1161
+msgid "Fazer uma limpeza completa antes de começar de novo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1167
+msgid "Dicas Importantes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1169
+msgid "Antes de excluir:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1171
+msgid "Desative o CDN nas abas respectivas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1172
+msgid "Considere fazer um backup do seu site"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1173
+msgid "A exclusão é permanente e não pode ser desfeita"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1175
+msgid "Durante a exclusão em lotes:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1177
+msgid "Não feche a página até que o processo termine"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1178
+msgid "Se o processo parar, clique em \"Continuar Exclusão\""
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1179
+msgid "Para sites com muitas imagens, use lotes menores"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1198
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:251
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1247
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1464
+#: includes/class-codir2me-admin.php:770 includes/class-codir2me-admin.php:825
+#: includes/class-codir2me-admin.php:1396
+#: includes/class-codir2me-admin.php:1433
+#: includes/class-codir2me-admin.php:1501
+#: includes/class-codir2me-admin.php:1538
+#: includes/class-codir2me-admin.php:1609
+#: includes/class-codir2me-admin.php:1844
+#: includes/class-codir2me-admin.php:1913
+#: includes/class-codir2me-image-reprocessor.php:354
+#: includes/class-codir2me-image-reprocessor.php:1017
+#: includes/class-codir2me-image-reprocessor.php:1125
+#: includes/class-codir2me-image-reprocessor.php:1444
+#: includes/class-codir2me-image-reprocessor.php:1509
+#: includes/class-codir2me-image-reprocessor.php:1561
+#: includes/class-codir2me-image-reprocessor.php:1987
+#: includes/class-codir2me-license-manager.php:96
+msgid "Acesso negado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1421
+msgid "Ação não autorizada."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1447
+msgid "Nenhum arquivo foi selecionado para exclusão. Por favor, selecione pelo menos um tipo de arquivo."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1464
+msgid "Erro de configuração:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1642
+#, php-format
+msgid "Iniciando exclusão em segundo plano: %d itens em %d lotes de %d arquivos. Primeiro lote em %d segundos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1705
+#, php-format
+msgid ""
+"=== INICIANDO LOTE DE EXCLUSÃO ===\n"
+"Lote atual: %d\n"
+"Tamanho do lote: %d arquivos\n"
+"Itens restantes: %d\n"
+"Memória atual: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1731
+#, php-format
+msgid "Cliente S3 criado em %.2fms"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1745
+#, php-format
+msgid "Lote preparado: %d objetos em %.2fms"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1777
+#, php-format
+msgid "Exclusão AWS concluída: %.2fms total (resolve: %.2fms)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1788
+#, php-format
+msgid "ATENÇÃO: %d erros na exclusão do lote"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1794
+#, php-format
+msgid "Erro ao excluir %s: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1804
+#, php-format
+msgid "Sucessos: %d arquivos excluídos corretamente"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1849
+#, php-format
+msgid ""
+"=== LOTE CONCLUÍDO ===\n"
+"Arquivos processados: %d\n"
+"Tempo total do lote: %.2fms\n"
+"Velocidade: %.1f arquivos/segundo\n"
+"Atualização BD: %.2fms\n"
+"Progresso: %d/%d (%.1f%%)\n"
+"Restam: %d arquivos\n"
+"Tempo estimado restante: %.1f minutos\n"
+"Memória pico: %s\n"
+"Status: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1878
+#, php-format
+msgid "ERRO no processamento em segundo plano após %.2fms: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1916
+#: includes/class-codir2me-background-processor.php:98
+#: includes/class-codir2me-background-processor.php:236
+#: includes/class-codir2me-image-reprocessor.php:938
+msgid "A cada 15 minutos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1934
+msgid "Nenhuma exclusão em andamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1971
+msgid "Exclusão pausada"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1975
+msgid "Exclusão concluída"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1979
+msgid "Último lote - conclusão em até 15 minutos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1988
+#, php-format
+msgid "Tempo estimado: %1$dh %2$dmin (%3$d arquivos restantes)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:1996
+#, php-format
+msgid "Tempo estimado: %1$d minutos (%2$d arquivos restantes)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:2089
+msgid "Falha na verificação de segurança. Tente novamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:2123
+msgid "Configurações de exclusão automática atualizadas com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:2124
+msgid "A exclusão automática está agora"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:2125
+msgid "ativada"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:2125
+msgid "desativada"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:2263
+#, php-format
+msgid "Corrigindo opção corrompida: %s (era %s)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-delete.php:2281
+#, php-format
+msgid "Corrigindo contador corrompido: %s (era %s)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:57
+#: includes/admin/class-codir2me-admin-ui-general.php:206
+#: includes/admin/class-codir2me-admin-ui-images.php:264
+#: includes/admin/class-codir2me-admin-ui-license.php:226
+#: includes/admin/class-codir2me-admin-ui-static.php:171
+#: includes/class-codir2me-admin.php:243 includes/class-codir2me-i18n.php:56
+msgid "Ativo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:58
+#: includes/admin/class-codir2me-admin-ui-general.php:206
+#: includes/admin/class-codir2me-admin-ui-images.php:264
+#: includes/admin/class-codir2me-admin-ui-static.php:171
+#: includes/class-codir2me-admin.php:244 includes/class-codir2me-i18n.php:57
+msgid "Inativo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:59
+msgid "Erro ao copiar texto:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:60
+msgid "Erro ao executar fallback de cópia:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:61
+msgid "Erro ao verificar ambiente:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:62
+#: includes/class-codir2me-i18n.php:86
+msgid "Erro ao processar a requisição. Por favor, tente novamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:63
+msgid "Compatível"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:64
+msgid "Parcialmente Compatível"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:65
+msgid "Não Compatível"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:66
+msgid "Status Geral:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:67
+msgid "Extensões necessárias faltando:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:68
+msgid "Extensões recomendadas faltando:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:69
+msgid "Diretórios com problemas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:70
+msgid "Detalhes do erro:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:71
+msgid "Código:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:72
+msgid "Mensagem:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:73
+msgid "Recomendações:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:74
+msgid "Atual:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:75
+msgid "Recomendado:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:105
+msgid "Configurações de Conexão com o R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:113
+msgid "R2 Access Key"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:117
+msgid "R2 Secret Key"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:121
+msgid "R2 Bucket"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:125
+msgid "R2 Endpoint URL"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:129
+#: includes/admin/class-codir2me-admin-ui-general.php:630
+msgid "CDN URL"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:135
+msgid "Salvar Configurações de Conexão"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:146
+msgid "Teste de Conexão R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:149
+msgid "Testar Conexão com R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:155
+msgid "Resultado do Teste:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:161
+msgid "Detalhes do Erro"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:176
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:406
+#: includes/admin/class-codir2me-admin-ui.php:409
+msgid "Configurações Avançadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:199
+#: includes/admin/class-codir2me-admin-ui-general.php:616
+#: includes/admin/class-codir2me-admin-ui-general.php:635
+#: includes/admin/class-codir2me-admin-ui.php:393
+#: includes/admin/class-codir2me-admin-ui.php:395
+msgid "Modo de Depuração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:208
+msgid "Ativar o modo de depuração para gerar logs detalhados."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:212
+msgid "Limpeza de Logs"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:218
+msgid "Limpar logs ao desativar o plugin."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:223
+msgid "Arquivo de Log"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:232
+msgid "Baixar Log"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:236
+msgid "Limpar Log"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:245
+msgid "Prévia do Log"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:266
+msgid "Nenhum log encontrado ou arquivo vazio."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:278
+msgid "Salvar Configurações Avançadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:288
+msgid "AsyncAws S3 SDK Necessário"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:289
+msgid "O plugin R2 Static & Media CDN agora usa o AsyncAws S3 Client para melhor performance. Por favor, instale o SDK executando:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:301
+msgid "Sobre as Configurações de Conexão"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:303
+msgid "O Cloudflare R2 é um serviço de armazenamento de objetos que substitui o Amazon S3 tradicional, oferecendo uma alternativa sem taxas de saída."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:305
+msgid "Campos obrigatórios:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:307
+msgid "R2 Access Key:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:307
+msgid "Credencial de acesso ao seu bucket R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:308
+msgid "R2 Secret Key:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:308
+msgid "Chave secreta para autenticação segura."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:309
+msgid "R2 Bucket:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:309
+msgid "Nome do seu bucket no Cloudflare R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:310
+msgid "R2 Endpoint URL:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:310
+msgid "URL do endpoint fornecido pelo Cloudflare."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:311
+msgid "CDN URL:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:311
+msgid "URL personalizada para entregar seus arquivos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:314
+msgid "Como obter suas credenciais:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:316
+msgid "Acesse o painel do Cloudflare."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:317
+msgid "Navegue até R2 > Gerenciar Buckets."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:318
+msgid "Clique em \"Gerenciar API Tokens\"."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:319
+msgid "Crie ou utilize um token existente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:326
+msgid "Sobre a Verificação de Compatibilidade"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:328
+msgid "A Verificação de Compatibilidade ajuda a identificar problemas potenciais que podem afetar o funcionamento adequado do plugin."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:330
+msgid "Itens verificados:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:332
+msgid "Versão do PHP:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:332
+msgid "Verifica se seu PHP atende aos requisitos mínimos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:333
+msgid "Versão do WordPress:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:333
+msgid "Confirma compatibilidade com sua instalação."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:334
+msgid "Extensões PHP:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:334
+msgid "Verifica se todas as extensões necessárias estão instaladas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:335
+msgid "Permissões:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:335
+msgid "Verifica permissões de diretórios essenciais."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:336
+msgid "AsyncAws SDK:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:336
+msgid "Confirma a instalação correta do AsyncAws S3."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:337
+msgid "Conexão R2:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:337
+msgid "Testa a comunicação com o Cloudflare R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:340
+#: includes/admin/class-codir2me-admin-ui-general.php:356
+msgid "Quando usar:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:342
+msgid "Após a instalação para verificar a compatibilidade."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:343
+msgid "Quando enfrentar problemas com o plugin."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:344
+msgid "Após atualizar seu WordPress ou PHP."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:345
+msgid "Ao migrar para um novo servidor."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:352
+msgid "Sobre o Modo de Depuração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:354
+msgid "O Modo de Depuração permite rastrear operações e identificar problemas no funcionamento do plugin."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:358
+msgid "Apenas quando solicitado pelo suporte técnico."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:359
+msgid "Para investigar problemas específicos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:360
+msgid "Temporariamente durante a resolução de problemas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:363
+msgid "Informações importantes:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:365
+msgid "Pode afetar o desempenho do site."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:366
+msgid "Gera arquivos de log que ocupam espaço."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:367
+msgid "Recomendamos desativar após resolver problemas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:370
+msgid "Os logs são salvos em:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:398
+msgid "Erro de segurança ao salvar as configurações avançadas. Por favor, tente novamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:413
+#: includes/admin/class-codir2me-admin-ui-general.php:539
+msgid "Você não tem permissão para alterar essas configurações."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:431
+msgid "Configurações avançadas salvas com sucesso."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:440
+msgid "Configurações avançadas salvas com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:454
+msgid "Verificação de Compatibilidade"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:455
+msgid "Esta ferramenta verifica se seu ambiente atende a todos os requisitos necessários para o funcionamento adequado do plugin."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:460
+msgid "Verificar Ambiente"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:467
+msgid "Verificando ambiente, aguarde..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:484
+msgid "Informações do Sistema"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:485
+msgid "Estas informações são úteis para o suporte técnico. Caso tenha algum problema, por favor copie e compartilhe estas informações."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:490
+msgid "Copiar Informações do Sistema"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:493
+#: includes/class-codir2me-admin.php:406
+msgid "Copiado!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:524
+msgid "Erro de segurança ao salvar as configurações de conexão. Por favor, tente novamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:563
+msgid "Configurações de conexão salvas com sucesso."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:572
+msgid "Configurações de conexão salvas com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:612
+msgid "Site URL"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:613
+msgid "Home URL"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:614
+msgid "WordPress Versão"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:615
+msgid "Multisite"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:615
+#: includes/admin/class-codir2me-admin-ui-general.php:627
+#: includes/admin/class-codir2me-admin-ui-general.php:628
+#: includes/admin/class-codir2me-admin-ui-general.php:629
+#: includes/admin/class-codir2me-admin-ui-general.php:642
+#: includes/admin/class-codir2me-admin-ui-general.php:643
+#: includes/admin/class-codir2me-admin-ui-general.php:644
+#: includes/class-codir2me-images-handler.php:1186
+#: includes/class-codir2me-images-handler.php:1187
+#: includes/class-codir2me-license-manager.php:526
+msgid "Sim"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:615
+#: includes/admin/class-codir2me-admin-ui-general.php:627
+#: includes/admin/class-codir2me-admin-ui-general.php:628
+#: includes/admin/class-codir2me-admin-ui-general.php:629
+#: includes/admin/class-codir2me-admin-ui-general.php:642
+#: includes/admin/class-codir2me-admin-ui-general.php:643
+#: includes/admin/class-codir2me-admin-ui-general.php:644
+#: includes/class-codir2me-images-handler.php:1186
+#: includes/class-codir2me-images-handler.php:1187
+#: includes/class-codir2me-license-manager.php:526
+msgid "Não"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:616
+#: includes/admin/class-codir2me-admin-ui-general.php:635
+#: includes/admin/class-codir2me-admin-ui-images.php:251
+msgid "Ativado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:616
+#: includes/admin/class-codir2me-admin-ui-general.php:635
+#: includes/admin/class-codir2me-admin-ui-images.php:251
+msgid "Desativado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:617
+msgid "Idioma"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:618
+msgid "Limite de Memória"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:619
+#: includes/class-codir2me-environment-checker.php:185
+msgid "Versão do PHP"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:620
+msgid "Versão do MySQL"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:621
+msgid "Servidor Web"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:621
+msgid "Desconhecido"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:626
+msgid "Versão do Plugin"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:627
+msgid "CDN Ativo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:628
+msgid "CDN de Imagens Ativo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:629
+msgid "Upload Auto. Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:630
+#: includes/admin/class-codir2me-admin-ui-general.php:631
+msgid "Não configurado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:631
+msgid "R2 Endpoint"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:632
+msgid "Tamanho do Lote (Estáticos)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:633
+msgid "Tamanho do Lote (Imagens)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:634
+msgid "Opção de Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:636
+msgid "SDK Usado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:636
+msgid "AsyncAws S3"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:636
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:161
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:167
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:173
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:179
+msgid "Não disponível"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:642
+msgid "Otimização Ativa"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:643
+msgid "Conversão WebP"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:644
+msgid "Conversão AVIF"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:645
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:307
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:310
+msgid "Nível de Otimização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:659
+msgid "INFORMAÇÕES DO SISTEMA"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:661
+msgid "WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:666
+msgid "Plugin R2 CDN"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:671
+#: includes/admin/class-codir2me-admin-ui-license.php:439
+#: includes/admin/class-codir2me-admin-ui-license.php:493
+#: includes/admin/class-codir2me-admin-ui.php:630
+#: includes/class-codir2me-admin.php:578
+msgid "Otimização de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:676
+msgid "Plugins Ativos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:679
+msgid "FIM DAS INFORMAÇÕES"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:722
+msgid "Configure todas as credenciais do R2 antes de testar a conexão."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:749
+msgid "Conexão com R2 realizada com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:755
+msgid "Erro: O bucket especificado não existe."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:757
+#, php-format
+msgid "Bucket: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:763
+msgid "Erro: Access Key ID inválido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:766
+msgid "Erro: Secret Access Key inválido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:769
+msgid "Erro: Acesso negado. Verifique as permissões."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:773
+#, php-format
+msgid "Erro S3: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:780
+#, php-format
+msgid "Código: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-general.php:785
+msgid "Erro de conexão com R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:91
+msgid "Configurações de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:99
+#: includes/admin/class-codir2me-admin-ui-images.php:255
+msgid "Status do CDN de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:105
+msgid "Ativar CDN para imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:109
+msgid "Desabilitar CDN no Admin"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:115
+msgid "Desabilitar CDN apenas na área administrativa (wp-admin)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:119
+#: includes/admin/class-codir2me-admin-ui-images.php:447
+msgid "Upload Automático de Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:125
+msgid "Enviar miniaturas automaticamente para o R2 quando novas imagens forem adicionadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:132
+msgid "Número de imagens enviadas por lote (recomendado: 20)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:136
+#: includes/admin/class-codir2me-admin-ui-images.php:139
+msgid "Tamanhos de Miniatura"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:142
+msgid "Enviar todas as miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:147
+msgid "Selecionar tamanhos específicos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:152
+msgid "Apenas imagens originais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:177
+msgid "Nota sobre o Upload Automático de Miniaturas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:177
+msgid "Quando ativado, o sistema enviará automaticamente as miniaturas conforme as configurações acima para o R2. As imagens originais já são enviadas automaticamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:179
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:476
+#: includes/admin/class-codir2me-admin-ui-static.php:148
+#: includes/admin/class-codir2me-admin-ui.php:419
+#: includes/class-codir2me-image-reprocessor.php:2247
+msgid "Salvar Configurações"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:262
+#: includes/admin/class-codir2me-admin-ui-static.php:169
+msgid "Status atual"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:284
+msgid "Upload de Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:294
+msgid "Total de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:298
+#: includes/admin/class-codir2me-admin-ui-images.php:310
+msgid "enviadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:298
+#: includes/admin/class-codir2me-admin-ui-images.php:310
+msgid "falta"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:300
+msgid "Todas as imagens foram enviadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:306
+msgid "Incluindo Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:312
+msgid "Todas as miniaturas foram enviadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:318
+msgid "Enviados para R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:332
+#: includes/admin/class-codir2me-admin-ui-static.php:196
+msgid "AWS SDK não encontrado!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:333
+#: includes/admin/class-codir2me-admin-ui-static.php:197
+msgid "O plugin precisa do AWS SDK para PHP para funcionar corretamente. Por favor, instale o SDK manualmente seguindo as instruções na aba Configurações Gerais."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:351
+msgid "Upload de Imagens para R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:355
+#: includes/admin/class-codir2me-admin-ui-static.php:475
+msgid "Upload em Andamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:358
+#: includes/class-codir2me-image-reprocessor.php:2275
+msgid "Imagens processadas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:379
+#: includes/admin/class-codir2me-admin-ui-static.php:499
+msgid "Continuar Upload (Próximo Lote)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:388
+#: includes/admin/class-codir2me-admin-ui-static.php:509
+msgid "Parar Upload"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:393
+#: includes/admin/class-codir2me-admin-ui-static.php:514
+msgid "Se o processo parou, clique em \"Continuar Upload\" para retomar."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:397
+msgid "Isso irá fazer upload de todas as imagens da sua biblioteca de mídia para o Cloudflare R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:398
+msgid "O processo é executado em etapas para evitar sobrecarga do servidor. Use as opções acima para selecionar quais tamanhos de miniaturas enviar."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:405
+msgid "Iniciar Upload de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:421
+msgid "Sobre o CDN de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:423
+msgid "O CDN de Imagens otimiza o carregamento de todas as imagens do seu site, transferindo-as para o Cloudflare R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:426
+msgid "Carregamento mais rápido de imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:427
+msgid "Redução significativa da carga no servidor"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:428
+msgid "Economia de largura de banda"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:429
+msgid "Melhor experiência para visitantes globais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:435
+#: includes/admin/class-codir2me-admin-ui-static.php:584
+msgid "Dicas de Uso"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:438
+msgid "Comece com um lote pequeno para testar a configuração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:439
+msgid "Reduza o número de miniaturas para economizar espaço"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:440
+msgid "Para sites grandes, faça o upload em partes ao longo do tempo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:441
+msgid "Ative o CDN apenas após concluir o upload de todas as imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:449
+msgid "Quando o upload automático de miniaturas está ativado, todos os tamanhos de miniaturas configurados serão enviados automaticamente para o R2 quando novas imagens forem adicionadas à biblioteca de mídia."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-images.php:450
+msgid "Por padrão, apenas as imagens originais são enviadas automaticamente. Ativando essa opção, você garante que as miniaturas também sejam enviadas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:98
+msgid "Tem certeza que deseja desativar sua licença? Você perderá acesso aos recursos premium."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:99
+msgid "Tem certeza que deseja mudar o domínio da licença para"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:99
+msgid "Isso só pode ser feito uma vez por semana."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:100
+msgid "Por favor, insira uma chave de licença válida."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:101
+msgid "Por favor, insira um email válido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:102
+msgid "Por favor, insira um domínio válido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:103
+msgid "Ocorreu um erro ao conectar com o servidor. Por favor, tente novamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:118
+msgid "Você tentou acessar uma funcionalidade premium. Por favor, adquira uma licença para ter acesso."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:155
+#: includes/class-codir2me-license-manager.php:929
+msgid "Status da licença:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:156
+#: includes/class-codir2me-license-manager.php:935
+msgid "Data de expiração:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:156
+#: includes/class-codir2me-license-manager.php:537
+#: includes/class-codir2me-license-manager.php:932
+#: includes/class-codir2me-license-manager.php:935
+#: includes/class-codir2me-license-manager.php:1041
+msgid "timestamp:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:176
+msgid "Gerenciamento de Licença"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:182
+msgid "Licença Inativa"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:183
+msgid "Sua licença não está ativa. Por favor, ative sua licença para acessar recursos premium."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:189
+#: includes/admin/class-codir2me-admin-ui-license.php:223
+msgid "Chave de Licença:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:190
+msgid "Insira sua chave de licença"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:194
+#: includes/admin/class-codir2me-admin-ui-license.php:224
+msgid "Email da Licença:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:195
+msgid "Insira o email utilizado na compra"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:200
+msgid "Você receberá sua chave de licença por e-mail após a compra."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:206
+msgid "Ativar Licença"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:218
+msgid "Licença Ativa"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:219
+msgid "Parabéns! Sua licença está ativa e você tem acesso completo a todos os recursos premium."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:228
+msgid "(Período de Teste)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:231
+msgid "Domínio Ativo:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:253
+msgid "Data de Expiração:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:256
+msgid "(Após o período de teste, sua licença será estendida para 1 ano)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:258
+msgid "(A licença não será renovada devido ao cancelamento programado)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:267
+msgid "Tempo Restante:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:269
+msgid "dias"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:271
+msgid " (período de teste)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:273
+msgid " (até o cancelamento)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:302
+msgid "Licença Programada para Cancelamento:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:306
+msgid "Motivo:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:315
+#, php-format
+msgid "Cancelamento solicitado em %s."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:322
+msgid "Sua licença continuará funcionando normalmente até a data de cancelamento."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:329
+msgid "Verificar licença agora"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:335
+msgid "Licença verificada com sucesso! Os detalhes foram atualizados."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:344
+msgid "Trocar Domínio da Licença"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:355
+#, php-format
+msgid "Você precisa esperar mais %d dia para poder trocar o domínio novamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:371
+msgid "Próxima troca disponível em:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:380
+msgid "Novo Domínio:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:383
+msgid "Você só pode trocar de domínio uma vez por semana. Use com cuidado."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:388
+msgid "Trocar Domínio"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:400
+#: includes/admin/class-codir2me-admin-ui-license.php:407
+msgid "Desativar Licença"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:403
+msgid "Desative a licença para poder usá-la em outro site."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:422
+msgid "Recursos Premium do Cloudflare R2 Media & Static"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:427
+msgid "Premium"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:431
+msgid "Desbloqueie recursos avançados para seu CDN"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:432
+msgid "Eleve seu site a um novo patamar com recursos avançados de otimização, gerenciamento e desempenho!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:440
+msgid "Comprima e converta automaticamente suas imagens para formatos modernos como WebP e AVIF, reduzindo drasticamente o tamanho dos arquivos sem perder qualidade."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:445
+#: includes/admin/class-codir2me-admin-ui-license.php:494
+#: includes/class-codir2me-image-reprocessor.php:2177
+msgid "Reprocessamento de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:446
+msgid "Atualize facilmente as imagens existentes com novos formatos ou configurações de otimização sem precisar reenviar tudo manualmente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:451
+#: includes/admin/class-codir2me-admin-ui-license.php:495
+#: includes/admin/class-codir2me-admin-ui.php:614
+#: includes/admin/class-codir2me-admin-ui.php:660
+#: includes/class-codir2me-admin.php:605 includes/class-codir2me-admin.php:606
+msgid "Escaneamento R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:452
+msgid "Escaneie seu bucket R2 para sincronizar perfeitamente com o WordPress, garantindo que todos os arquivos estejam registrados corretamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:457
+#: includes/admin/class-codir2me-admin-ui-license.php:496
+msgid "Gerenciamento de Arquivos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:458
+msgid "Exclua facilmente arquivos antigos ou não utilizados diretamente do seu bucket R2, mantendo seu armazenamento limpo e eficiente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:469
+msgid "Plano Premium"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:493
+msgid "Comprima e converta automaticamente para WebP/AVIF"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:494
+msgid "Atualize facilmente formatos existentes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:495
+msgid "Sincronize seu bucket com WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:496
+msgid "Exclua arquivos não utilizados do R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:497
+msgid "Atualizações gratuitas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:497
+msgid "Acesso a novas funcionalidades"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:498
+#: includes/admin/class-codir2me-admin-ui.php:688
+msgid "Suporte técnico prioritário"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:498
+msgid "Por 1 ano completo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:499
+msgid "Licença para 1 site"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:499
+msgid "Use em um domínio por vez (transferível)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:511
+msgid "Pagamento seguro processado via Stripe"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:516
+msgid "Garantia de reembolso total nos primeiros 30 dias"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:526
+#: includes/admin/class-codir2me-admin-ui-license.php:619
+msgid "Perguntas Frequentes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:531
+msgid "Como funciona a licença?"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:535
+msgid "Nossa licença é válida por 1 ano e permite que você use todos os recursos premium em um único site WordPress. Após a compra, você receberá uma chave de licença por e-mail que deve ser inserida nesta página para ativar os recursos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:541
+msgid "Posso usar a licença em mais de um site?"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:545
+msgid "Cada licença é válida para um site WordPress por vez. No entanto, você pode mudar o domínio da licença uma vez por semana, o que permite transferir sua licença de um site para outro quando necessário."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:551
+msgid "Como renovar minha licença?"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:555
+msgid "Você receberá um e-mail antes da expiração da sua licença com instruções para renovação. A renovação mantém o mesmo preço e garante acesso contínuo a todos os recursos premium e atualizações futuras."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:561
+msgid "O que acontece quando minha licença expirar?"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:565
+msgid "Quando sua licença expirar, você perderá acesso aos recursos premium. No entanto, todas as imagens e arquivos que já foram otimizados e enviados para o R2 continuarão funcionando normalmente. Você só perderá a capacidade de usar as funcionalidades premium para novos arquivos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:571
+msgid "Posso obter um reembolso?"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:575
+msgid "Oferecemos uma garantia de reembolso de 30 dias. Se você não estiver satisfeito com os recursos premium por qualquer motivo, entre em contato com nosso suporte dentro desse período para solicitar um reembolso completo."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:597
+msgid "Suporte Premium"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:599
+msgid "Com a licença premium, você tem acesso ao nosso suporte técnico dedicado."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:600
+msgid "Nossos especialistas estão prontos para ajudar com:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:602
+msgid "Configuração do plugin"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:603
+msgid "Otimização de imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:604
+msgid "Integração com Cloudflare R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:605
+msgid "Solução de problemas técnicos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:609
+msgid "Contatar Suporte"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:615
+msgid "Recursos Úteis"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:618
+msgid "Documentação Completa"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:620
+msgid "Notas de Atualização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:621
+#: includes/admin/class-codir2me-admin-ui.php:445
+msgid "Suporte Técnico"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:628
+msgid "Por que Escolher Nossa Solução?"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:630
+msgid "O Codirun R2 Media & Static CDN foi desenvolvido com foco em:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:632
+msgid "Desempenho:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:632
+msgid "Carregamento de páginas até 3x mais rápido"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:633
+msgid "Segurança:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:633
+msgid "Proteção adicional com a rede Cloudflare"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:634
+msgid "Economia:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:634
+msgid "Redução de custos com servidor e largura de banda"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:635
+msgid "Facilidade:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-license.php:635
+msgid "Interface amigável e configuração simples"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:52
+msgid "Estatísticas Atuais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:60
+msgid "Imagens na Biblioteca"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:70
+msgid "Enviadas para R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:80
+msgid "Imagens Faltando"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:84
+msgid "(Todas enviadas)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:94
+msgid "Total de imagens na biblioteca"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:98
+msgid "Total de arquivos enviados para R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:102
+msgid "Imagens marcadas como faltando"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:106
+msgid "Contadores atuais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:111
+#, php-format
+msgid "Original: %1$s, Faltando: %2$s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:121
+msgid "Todas as imagens foram marcadas como enviadas. O sistema não mostrará imagens pendentes."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:128
+#, php-format
+msgid "O sistema ainda mostra que faltam %s imagens para enviar. Use as ferramentas de correção abaixo para resolver o problema."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:136
+msgid "Limpar Arquivos Temporários Duplicados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:137
+msgid "Esta ferramenta remove arquivos AVIF e WebP duplicados que podem ter sido criados durante o reprocessamento de imagens."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:144
+msgid "Limpar Arquivos Duplicados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:162
+#, php-format
+msgid "%s arquivos duplicados foram removidos com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:169
+#, php-format
+msgid "%s liberados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:182
+msgid "Ferramentas de Manutenção"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:188
+msgid "Correção de Contagem"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:189
+msgid "Estas opções ajudam a corrigir problemas quando o sistema mostra que faltam imagens, mesmo depois de enviar tudo."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:193
+msgid "Marcar todas as imagens originais como enviadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:198
+msgid "Limpar lista de uploads pendentes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:203
+msgid "Marcar todas as miniaturas, WebP e AVIF como enviadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:205
+msgid "Use esta opção para incluir todos os formatos de imagem e miniaturas. Útil quando você já enviou suas imagens convertidas para o R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:211
+msgid "Reconstrução de Dados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:212
+msgid "Estas opções recriam estatísticas e metadados do plugin."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:216
+msgid "Reconstruir estatísticas de miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:221
+msgid "Limpar cache de estatísticas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:226
+msgid "Limpar registros de imagens inexistentes (remover do R2 registros que não existem mais na biblioteca)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:231
+msgid "Aplicar Correções"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:304
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:385
+#, php-format
+msgid "Arquivo duplicado removido: %1$s (Tamanho: %2$s)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:363
+#, php-format
+msgid "Arquivo mais recente renomeado: %1$s -> %2$s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:421
+msgid "Sobre a Manutenção"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:423
+msgid "Esta seção oferece ferramentas para manutenção e correção do plugin Codirun R2 Media & Static CDN."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:424
+msgid "Use estas ferramentas quando:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:426
+msgid "Encontrar problemas de contagem de imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:427
+msgid "Após grandes migrações ou restaurações"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:428
+msgid "Para limpar dados inconsistentes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:429
+msgid "Quando tudo já foi enviado mas o sistema mostra pendências"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:435
+msgid "Casos de Uso"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:437
+msgid "Problema de Contagem:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:437
+msgid "Quando o sistema mostra que faltam imagens mesmo após enviar tudo."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:438
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:440
+msgid "Solução:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:438
+msgid "Marque \"Marcar todas as imagens como enviadas\" e \"Limpar lista de uploads pendentes\"."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:439
+msgid "Estatísticas Incorretas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:439
+msgid "Quando os números de miniaturas estão errados."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:440
+msgid "Marque \"Reconstruir estatísticas de miniaturas\" e \"Limpar cache\"."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:498
+msgid "As correções de manutenção foram aplicadas com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-maintenance.php:897
+#, php-format
+msgid "Manutenção: Marcadas %1$d miniaturas, %2$d arquivos WebP e %3$d arquivos AVIF como enviados."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:114
+msgid "Estatísticas de otimização redefinidas com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:146
+msgid "Status da Otimização de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:151
+msgid "Atenção:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:151
+msgid "Alguns requisitos para otimização de imagens não estão disponíveis no seu servidor."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:155
+msgid "Status dos requisitos:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:161
+msgid "Extensão GD:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:161
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:167
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:173
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:179
+msgid "Disponível"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:167
+msgid "Extensão Imagick:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:173
+msgid "Suporte a WebP:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:179
+msgid "Suporte a AVIF:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:184
+msgid "A otimização de imagens requer pelo menos uma das extensões: GD ou Imagick. Por favor, contate seu provedor de hospedagem para ativar uma delas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:195
+msgid "Status da Otimização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:207
+msgid "Imagens Otimizadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:217
+msgid "Espaço Economizado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:225
+msgid "Estatísticas Detalhadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:229
+msgid "Imagens Processadas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:233
+msgid "Imagens Otimizadas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:237
+msgid "Taxa de Sucesso:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:241
+msgid "Espaço Total Economizado:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:245
+msgid "Imagens Convertidas para WebP:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:249
+msgid "Espaço Economizado com WebP:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:254
+msgid "Imagens Convertidas para AVIF:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:258
+msgid "Espaço Economizado com AVIF:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:264
+msgid "Última Otimização:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:274
+msgid "Redefinir Estatísticas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:283
+msgid "Configurações de Otimização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:290
+msgid "Ativar Otimização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:298
+msgid "Otimiza automaticamente as imagens antes de enviar para o R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:300
+msgid "Não disponível - requisitos não atendidos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:315
+msgid "Leve"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:316
+msgid "Compressão mínima com alta qualidade"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:324
+msgid "Balanceado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:325
+msgid "Equilíbrio entre tamanho e qualidade"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:333
+msgid "Agressivo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:334
+msgid "Máxima compressão possível"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:344
+msgid "Formatos de Próxima Geração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:353
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:366
+msgid "(não suportado)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:355
+msgid "Gera versões WebP das imagens (~30% menor que JPEG/PNG)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:368
+msgid "Gera versões AVIF das imagens (até 50% menor que WebP)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:381
+msgid "Converter Miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:383
+msgid "Aplica as conversões WebP/AVIF também nas miniaturas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:388
+msgid "O plugin entregará automaticamente o melhor formato compatível com o navegador do visitante. Navegadores mais antigos receberão o formato original."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:395
+msgid "Manter Original"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:401
+msgid "Manter a versão original da imagem no R2 após a conversão (recomendado para compatibilidade)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:408
+#: includes/class-codir2me-admin.php:235 includes/class-codir2me-i18n.php:79
+msgid "Mostrar Configurações Avançadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:413
+msgid "Qualidade JPEG"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:417
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:435
+msgid "Valor entre 1 (menor tamanho) e 100 (melhor qualidade). Recomendado: 75-85"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:422
+msgid "Compressão PNG"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:426
+msgid "Valor entre 0 (sem compressão) e 9 (máxima compressão). Recomendado: 6-8"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:431
+msgid "Qualidade WebP"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:440
+msgid "Qualidade AVIF"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:444
+msgid "Valor entre 1 (menor tamanho) e 100 (melhor qualidade). Recomendado: 60-75"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:449
+msgid "Elemento HTML"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:454
+msgid "Usar elemento &lt;picture&gt; (recomendado)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:456
+msgid "Cria um elemento &lt;picture&gt; com várias fontes para compatibilidade máxima."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:460
+msgid "Usar apenas elemento &lt;img&gt;"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:462
+msgid "Mais simples, mas com menos compatibilidade para formatos modernos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:471
+msgid "Importante:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:471
+msgid "A otimização de imagens não está disponível porque seu servidor não possui os requisitos necessários."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:498
+msgid "Formatos de Imagem Modernos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:500
+msgid "Utilizando formatos de próxima geração, você pode:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:502
+msgid "Reduzir ~30% vs. JPEG/PNG"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:503
+msgid "Reduzir até 50% vs. WebP"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:504
+msgid "Melhorar o desempenho do carregamento do site"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:505
+msgid "Manter a compatibilidade com navegadores antigos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:508
+msgid "Suporte em navegadores:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:518
+msgid "Como funciona a entrega de imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:520
+msgid "O plugin utiliza o elemento <code>&lt;picture&gt;</code> que permite:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:522
+msgid "Oferecer o formato mais otimizado primeiro (AVIF)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:523
+msgid "Recorrer ao segundo melhor formato (WebP) se necessário"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:524
+msgid "Garantir compatibilidade usando a imagem original como fallback"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:526
+msgid "Exemplo:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:537
+msgid "Dicas de Otimização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:540
+msgid "Ative ambos WebP e AVIF para máxima economia"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:541
+msgid "Use nível \"Balanceado\" para a maioria dos sites"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:542
+msgid "Para e-commerce, use qualidade mais alta para imagens de produtos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:543
+msgid "Mantenha o formato original para garantir compatibilidade"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:569
+msgid "Erro de segurança ao salvar as configurações. Por favor, tente novamente."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:584
+msgid "Não foi possível salvar as configurações de otimização. Os requisitos necessários não estão disponíveis no servidor."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-optimizer.php:642
+msgid "Configurações de otimização de imagens salvas com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:201
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2074
+msgid "Erro de segurança. Nonce inválido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:206
+#: includes/admin/class-codir2me-admin-ui-scanner.php:319
+#: includes/admin/class-codir2me-admin-ui-scanner.php:532
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1306
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2088
+#: includes/class-codir2me-admin.php:1118
+#: includes/class-codir2me-environment-checker.php:96
+#: includes/class-codir2me-image-reprocessor.php:1856
+#: includes/class-codir2me-image-reprocessor.php:1888
+msgid "Permissão negada."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:214
+msgid "Dados do escaneamento não fornecidos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:221
+msgid "Dados do escaneamento inválidos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:314
+#: includes/admin/class-codir2me-admin-ui-scanner.php:527
+#: includes/admin/class-codir2me-admin-ui-scanner.php:601
+#: includes/admin/class-codir2me-admin-ui-scanner.php:640
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1301
+#: includes/class-codir2me-admin.php:1114
+msgid "Erro de segurança. Por favor, atualize a página."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:325
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1312
+msgid "ID de escaneamento inválido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:331
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1322
+msgid "Escaneamento não encontrado."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:431
+msgid "Erro ao processar página do escaneamento de importação."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:541
+msgid "ID de escaneamento inválido ou não fornecido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:551
+msgid "Dados de escaneamento não encontrados ou inválidos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:574
+#, php-format
+msgid "Carregando mais arquivos do escaneamento %1$s. Offset: %2$d, Limite: %3$d, Total de arquivos: %4$d, Arquivos carregados: %5$d, Restantes: %6$d"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:647
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1598
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1604
+msgid "Nenhum arquivo selecionado para importação."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:685
+#: includes/class-codir2me-background-processor.php:47
+#: includes/class-codir2me-background-processor.php:68
+#: includes/class-codir2me-image-reprocessor.php:1850
+msgid "Erro de segurança."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:794
+msgid "Resultados da Importação"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:806
+msgid "Resultados da Busca no R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:839
+msgid "Escaneando o bucket R2..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:849
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1215
+msgid "Páginas processadas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:853
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1216
+msgid "Arquivos escaneados:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:857
+msgid "Imagens encontradas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:862
+msgid "Escaneamento em andamento..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:873
+msgid "Busca concluída!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:884
+#, php-format
+msgid "Foram encontradas %1$d imagens em %2$d segundos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:894
+msgid "Nenhuma imagem foi encontrada com os critérios selecionados. Tente buscar com outro formato ou verifique se há arquivos no seu bucket."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:906
+msgid "Filtrar por nome ou extensão..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:963
+#, php-format
+msgid "Carregar mais itens (%d restantes)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:972
+msgid "Nenhuma imagem encontrada com os critérios selecionados."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:980
+msgid "Importar Arquivos Selecionados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:984
+msgid "Nova Busca"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:996
+msgid "Ocorreu um erro durante o escaneamento:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:996
+#: includes/class-codir2me-admin.php:1712
+#: includes/class-codir2me-admin.php:1736
+msgid "Erro desconhecido"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1000
+msgid "Voltar e tentar novamente"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1096
+msgid "Importação de Arquivos R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1097
+msgid "Esta ferramenta permite importar imagens armazenadas no R2 diretamente para a biblioteca de mídia do WordPress."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1105
+msgid "Importação R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1106
+msgid "Importe suas imagens do bucket R2 diretamente para o WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1116
+msgid "Filtrar por Formato"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1120
+msgid "Todas as Imagens (Todos os formatos)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1124
+msgid "Formatos Padrão (JPG, PNG, GIF)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1128
+msgid "Apenas WebP"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1132
+msgid "Apenas AVIF"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1139
+msgid "Buscar Arquivos no R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1156
+msgid "Escaneamento do Bucket R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1157
+msgid "Esta ferramenta analisa os arquivos armazenados no seu bucket R2 e compara com os registros locais do WordPress."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1165
+msgid "Escaneamento de Bucket"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1166
+msgid "Analise e sincronize seu bucket R2 com o WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1173
+#: includes/class-codir2me-image-reprocessor.php:2182
+msgid "AWS SDK não encontrado. Por favor, instale o SDK para usar esta funcionalidade."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1181
+msgid "Método de Escaneamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1185
+msgid "Progressivo (recomendado para buckets grandes)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1190
+msgid "Direto (mais rápido para buckets pequenos)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1192
+msgid "O método progressivo mostra o progresso em tempo real, mas pode levar mais tempo. O direto é mais rápido, mas pode causar timeout em buckets grandes."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1198
+msgid "Iniciar Escaneamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1204
+msgid "Escaneamento em Progresso"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1211
+msgid "Iniciando escaneamento..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1217
+msgid "Arquivos encontrados:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1233
+msgid "Falha na verificação do nonce para início de escaneamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1280
+#, php-format
+msgid "Iniciando escaneamento de importação assíncrono %s com formato: %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1428
+msgid "Erro ao processar página do escaneamento."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1446
+msgid "Erro na verificação do nonce ao importar arquivos."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1508
+#, php-format
+msgid "Iniciando importação de %d arquivos únicos do R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1530
+msgid "Resultado de importação inválido."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1541
+#, php-format
+msgid "Importação concluída: %1$d arquivos importados com sucesso, %2$d falhas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1566
+msgid "Erro ao importar arquivos do R2: "
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1644
+msgid "Erro durante a importação:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1662
+#, php-format
+msgid "Importação concluída! %d arquivos importados com sucesso."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1671
+msgid "Alguns arquivos não puderam ser importados:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1681
+msgid "Arquivos Importados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1697
+msgid "Editar na biblioteca"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1717
+msgid "Resultados do Escaneamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1725
+#: includes/admin/class-codir2me-admin-ui-static.php:303
+msgid "Total de Arquivos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1731
+#, php-format
+msgid "%s de espaço utilizado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1755
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1925
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1987
+#: includes/admin/class-codir2me-admin-ui.php:610
+#: includes/class-codir2me-admin.php:569 includes/class-codir2me-admin.php:570
+msgid "Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1764
+msgid "Detalhes de Arquivos Estáticos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1769
+msgid "Extensão"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1770
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1813
+msgid "Quantidade"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1771
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1814
+msgid "Tamanho"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1785
+msgid "Nenhum arquivo estático encontrado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1794
+msgid "Detalhes de Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1798
+msgid "Originais:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1803
+msgid "Miniaturas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1812
+msgid "Formato"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1828
+msgid "Nenhuma imagem encontrada"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1843
+msgid "Sincronizar Registros"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1844
+msgid "Compare os arquivos no R2 com os registros locais do WordPress:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1849
+msgid "Adicionar arquivos encontrados no R2 aos registros locais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1854
+msgid "Remover dos registros locais arquivos que não existem no R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1860
+msgid "É recomendado manter ambas as opções marcadas para garantir uma sincronização completa."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1864
+msgid "Comparar e Sincronizar"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1872
+msgid "Resultados da Comparação"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1880
+msgid "Arquivos no R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1890
+msgid "Registros Locais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1902
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1928
+msgid "No R2:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1906
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1932
+msgid "Nos registros:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1913
+msgid "No R2 não registrados localmente:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1918
+msgid "Nos registros não encontrados no R2:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1939
+msgid "No R2 não registradas localmente:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1944
+msgid "Nos registros não encontradas no R2:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1955
+msgid "Resultados da Sincronização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1963
+msgid "Sincronização Completa"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1964
+msgid "Os registros foram sincronizados com sucesso!"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1975
+msgid "Adicionados:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1980
+msgid "Removidos:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1991
+msgid "Adicionadas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:1996
+msgid "Removidas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2004
+msgid "O plugin agora tem informações atualizadas sobre os arquivos armazenados no R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2005
+msgid "Recarregar Página"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2020
+msgid "Sobre a Importação"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2022
+msgid "A ferramenta de importação permite trazer de volta para o WordPress imagens que você já tem no R2, mas que não estão na biblioteca de mídia."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2023
+msgid "Use esta função quando:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2025
+msgid "Você perdeu imagens do WordPress mas elas ainda existem no R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2026
+msgid "Deseja importar imagens de outro site que usa o mesmo bucket"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2027
+msgid "Precisa recuperar arquivos após uma migração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2033
+msgid "Sobre o Escaneamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2035
+msgid "Esta ferramenta permite escanear diretamente o bucket do Cloudflare R2 para listar e contar todos os arquivos armazenados."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2036
+msgid "Use esta ferramenta para:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2038
+msgid "Verificar o número real de arquivos no R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2039
+msgid "Comparar com os registros locais do WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2040
+msgid "Sincronizar quando os registros estiverem desatualizados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2041
+msgid "Detectar arquivos órfãos no bucket"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2047
+msgid "Dicas para Buckets Grandes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2050
+msgid "Para buckets com muitos arquivos, use o método progressivo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2051
+msgid "Filtrar por formato reduz o tempo de busca"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2052
+msgid "Para importar muitas imagens, faça em lotes menores"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2053
+msgid "Use o filtro de arquivos para encontrar imagens específicas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2145
+#, php-format
+msgid "Escaneamento direto concluído: %d arquivos encontrados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2165
+msgid "Erro ao escanear bucket R2:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2200
+msgid "Erro ao comparar arquivos:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-scanner.php:2283
+msgid "Erro ao sincronizar registros:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:80
+msgid "Configurações de Arquivos Estáticos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:88
+#: includes/admin/class-codir2me-admin-ui-static.php:162
+msgid "Status do CDN"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:94
+msgid "Ativar CDN para arquivos JS, CSS, SVG e fontes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:101
+msgid "Número de arquivos enviados por lote (recomendado: 50)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:107
+msgid "Upload Automático"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:113
+msgid "Verificar e enviar automaticamente novos arquivos estáticos ou modificados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:117
+msgid "Frequência de Verificação"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:120
+msgid "Diariamente"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:121
+#: includes/class-codir2me-auto-upload.php:87
+msgid "A cada 3 dias"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:122
+msgid "Semanalmente"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:124
+msgid "Com que frequência verificar e enviar novos arquivos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:128
+msgid "Upload na Atualização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:134
+msgid "Enviar novos arquivos estáticos quando um tema ou plugin for atualizado"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:138
+msgid "Versionamento de Arquivos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:144
+msgid "Adicionar parâmetro de versão às URLs para garantir que os visitantes recebam as versões mais recentes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:181
+#: includes/admin/class-codir2me-admin-ui-static.php:266
+msgid "Arquivos Enviados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:250
+msgid "Desconhecida"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:270
+msgid "Tem certeza que deseja limpar a lista de arquivos enviados? Esta ação não excluirá os arquivos do R2, apenas limpará o registro local."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:275
+msgid "Limpar Lista de Arquivos Enviados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:282
+msgid "Observação:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:283
+msgid "Esta ação apenas limpa o registro local de arquivos enviados para o R2. Os arquivos continuarão armazenados no Cloudflare R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:287
+#, php-format
+msgid "Para excluir os arquivos do bucket R2, utilize a aba %s."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:288
+#: includes/admin/class-codir2me-admin-ui.php:615
+#: includes/admin/class-codir2me-admin-ui.php:670
+#: includes/class-codir2me-admin.php:614 includes/class-codir2me-admin.php:615
+msgid "Excluir Arquivos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:313
+#: includes/admin/class-codir2me-admin-ui-static.php:405
+msgid "JavaScript"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:323
+#: includes/admin/class-codir2me-admin-ui-static.php:410
+msgid "CSS"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:333
+msgid "Fontes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:343
+#: includes/admin/class-codir2me-admin-ui-static.php:420
+msgid "SVG"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:353
+msgid "Filtrar arquivos..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:358
+#, php-format
+msgid "Mostrando %1$s de %2$s arquivos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:370
+msgid "Nome do Arquivo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:371
+msgid "Tipo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:372
+msgid "Caminho"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:373
+msgid "Última Atualização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:374
+msgid "Ações"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:399
+msgid "Outro"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:415
+msgid "Fonte"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:444
+msgid "Reenviar"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:471
+msgid "Sincronização de Arquivos Estáticos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:518
+msgid "Isso irá escanear seu site em busca de arquivos JS, CSS, SVG, e fontes (WOFF, WOFF2, TTF, EOT) e enviá-los para o R2 em lotes."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:519
+msgid "O processo é executado em etapas para evitar sobrecarga do servidor."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:526
+msgid "Iniciar Upload de Arquivos Estáticos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:571
+msgid "Sobre o CDN de Arquivos Estáticos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:573
+msgid "O CDN de Arquivos Estáticos otimiza o carregamento do seu site, transferindo arquivos como JavaScript, CSS, SVG e fontes para o Cloudflare R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:576
+msgid "Maior velocidade de carregamento"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:577
+msgid "Menor carga no servidor principal"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:578
+msgid "Melhor distribuição geográfica de conteúdo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:587
+msgid "Ative o CDN após concluir o upload inicial"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:588
+msgid "Execute a sincronização após instalar novos temas ou plugins"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:589
+msgid "Use lotes menores se encontrar timeout durante o upload"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:596
+msgid "Configuração CORS (Importante)"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:600
+msgid "Para que arquivos como fontes funcionem corretamente, você precisa configurar a política CORS do seu bucket R2:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:603
+msgid "Acesse o painel do Cloudflare"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:604
+msgid "Navegue até R2 > Seu Bucket > Configurações"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:605
+msgid "Na seção \"CORS\", adicione a seguinte configuração:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:612
+msgid "Copiar"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:620
+#, php-format
+msgid "Substitua %1$s e %2$s pelos seus domínios se forem diferentes dos mostrados acima."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-static.php:628
+msgid "A configuração CORS (Cross-Origin Resource Sharing) é necessária para que seu navegador possa carregar recursos como fontes a partir do domínio do R2, que é diferente do domínio do seu site."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:47
+#, php-format
+msgid "%1$dpx x %2$dpx"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:50
+#, php-format
+msgid "%dpx de largura"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:53
+#, php-format
+msgid "%dpx de altura"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:55
+msgid "Dimensões variáveis"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:184
+msgid "Cache limpo e estatísticas recalculadas:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:189
+#, php-format
+msgid "Total de imagens na biblioteca: %d"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:195
+#, php-format
+msgid "Imagens originais enviadas: %d"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:201
+#, php-format
+msgid "Miniaturas enviadas: %d"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-thumbnails.php:207
+#, php-format
+msgid "Imagens originais pendentes: %d"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:42
+msgid "B"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:43
+msgid "KB"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:44
+msgid "MB"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:45
+msgid "GB"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:46
+msgid "TB"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:83
+#: includes/admin/class-codir2me-admin-ui-utils.php:90
+msgid "Calculando..."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:99
+#, php-format
+msgid "%d segundos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:102
+#: includes/class-codir2me-image-reprocessor.php:458
+#, php-format
+msgid "%d minutos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui-utils.php:107
+#, php-format
+msgid "%1$dh %2$dm"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:396
+msgid "O modo de depuração permite rastrear operações do plugin para solução de problemas."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:398
+msgid "Como Ativar o Modo de Depuração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:402
+#, php-format
+msgid "Acesse <strong>%1$s</strong> > <strong>%2$s</strong>"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:403
+#: includes/class-codir2me-admin.php:539 includes/class-codir2me-admin.php:540
+msgid "Codirun R2 Media & Static CDN"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:404
+#: includes/admin/class-codir2me-admin-ui.php:608
+#: includes/class-codir2me-admin.php:551
+msgid "Configurações Gerais"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:408
+#, php-format
+msgid "Vá para a seção <strong>%s</strong>"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:413
+#, php-format
+msgid "Marque a opção <strong>%s</strong>"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:414
+msgid "Ativar Modo de Depuração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:418
+#, php-format
+msgid "Clique em <strong>%s</strong>"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:423
+msgid "Nota:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:423
+msgid "O modo de depuração pode gerar arquivos de log grandes e afetar ligeiramente o desempenho do seu site. Recomendamos ativá-lo apenas quando solicitado pelo suporte e desativá-lo após a resolução do problema."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:425
+msgid "Localização dos Logs de Depuração"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:426
+msgid "Os logs de depuração são salvos em:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:428
+msgid "Você pode baixar este arquivo e enviá-lo para o suporte quando solicitado."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:430
+msgid "Gerenciamento de Logs"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:431
+msgid "Quando o modo de depuração está ativado, você pode:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:433
+msgid "Baixar Logs:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:433
+msgid "Clique no botão \"Baixar Log\" para baixar o arquivo de log atual."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:434
+msgid "Limpar Logs:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:434
+msgid "Clique no botão \"Limpar Log\" para resetar o arquivo de log."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:435
+msgid "Limpeza Automática:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:435
+msgid "A opção \"Limpar logs ao desativar o plugin\" excluirá automaticamente os logs quando o plugin for desativado."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:444
+msgid "Links Úteis:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:446
+msgid "Documentação"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:595
+msgid "Cloudflare R2 CDN Logo"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:601
+#, php-format
+msgid "v%s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:611
+#: includes/class-codir2me-admin.php:579
+msgid "Otimização"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:612
+#: includes/admin/class-codir2me-admin-ui.php:640
+#: includes/class-codir2me-admin.php:587 includes/class-codir2me-admin.php:588
+msgid "Reprocessar Imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:613
+#: includes/class-codir2me-admin.php:596 includes/class-codir2me-admin.php:597
+msgid "Manutenção"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:616
+#: includes/class-codir2me-admin.php:623 includes/class-codir2me-admin.php:624
+msgid "Licença"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:631
+msgid "Esta funcionalidade premium permite comprimir e converter automaticamente suas imagens para formatos modernos, reduzindo o tamanho dos arquivos sem perder qualidade."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:633
+msgid "Compressão de imagens para reduzir o tamanho sem perder qualidade"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:634
+msgid "Conversão automática para formatos modernos como WebP e AVIF"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:635
+msgid "Configurações personalizáveis de qualidade e compressão"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:636
+msgid "Economize largura de banda e acelere o carregamento do seu site"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:641
+msgid "Esta funcionalidade premium permite reprocessar imagens existentes com novas configurações de otimização sem precisar fazer novo upload de tudo."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:643
+msgid "Atualize facilmente imagens existentes para novos formatos"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:644
+msgid "Aplique diferentes configurações de otimização a imagens já enviadas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:645
+msgid "Economize tempo evitando o reenvio completo de todas as imagens"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:646
+msgid "Mantenha seu site atualizado com os formatos de imagem mais recentes"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:650
+msgid "Manutenção Avançada"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:651
+msgid "Esta funcionalidade premium oferece ferramentas avançadas para manutenção e gerenciamento do seu bucket R2."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:653
+msgid "Resolva inconsistências entre os registros locais e os arquivos reais no R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:654
+msgid "Reconstrua estatísticas e metadados para corrigir problemas de contagem"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:655
+msgid "Limpe registros de imagens que não existem mais na biblioteca de mídia"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:656
+msgid "Marque facilmente todas as imagens como enviadas para corrigir problemas de status"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:661
+msgid "Esta funcionalidade premium permite escanear seu bucket R2 para identificar e sincronizar arquivos com o WordPress."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:663
+msgid "Identifique arquivos no R2 que não estão registrados no WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:664
+msgid "Sincronize automaticamente arquivos entre as plataformas"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:665
+msgid "Corrija inconsistências entre o WordPress e o R2"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:666
+msgid "Importe arquivos existentes no R2 para o WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:671
+msgid "Esta funcionalidade premium permite gerenciar e excluir arquivos do seu bucket R2 diretamente da interface do WordPress."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:673
+msgid "Configure a exclusão automática de imagens no R2 quando removidas do WordPress"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:674
+msgid "Limpe seu bucket R2 para economizar espaço"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:675
+msgid "Controle precisamente quais miniaturas devem ser excluídas automaticamente"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:676
+msgid "Mantenha seu bucket R2 organizado e otimizado, evitando acúmulo de arquivos não utilizados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:682
+#: includes/admin/class-codir2me-admin-ui.php:693
+msgid "Funcionalidade Premium"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:683
+msgid "Esta é uma funcionalidade premium disponível apenas para usuários com licença ativa."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:685
+msgid "Acesso a recursos avançados"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:686
+msgid "Otimização de desempenho"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:687
+msgid "Economia de tempo com automação"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:707
+msgid "Funcionalidade Premium:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:707
+msgid "Esta funcionalidade requer uma licença ativa."
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:708
+msgid "Ativar licença"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:717
+msgid "O que você ganha com esta funcionalidade:"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:730
+#, php-format
+msgid "Desbloquear %s"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:734
+msgid "Adquira uma licença para desbloquear todas as funcionalidades premium"
+msgstr ""
+
+#: includes/admin/class-codir2me-admin-ui.php:794
+#, php-format
+msgid "Erro ao excluir objeto do R2: %s"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:221 includes/class-codir2me-i18n.php:92
+msgid "Confirmar Interrupção"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:222 includes/class-codir2me-i18n.php:93
+msgid "Tem certeza que deseja parar o processo de reprocessamento? O processo será cancelado e você precisará recomeçar do início se quiser continuar."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:223 includes/class-codir2me-i18n.php:94
+msgid "Sim, Parar Reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:224 includes/class-codir2me-i18n.php:95
+msgid "Não, Continuar Processando"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:225 includes/class-codir2me-i18n.php:96
+msgid "Operação cancelada. O reprocessamento continua."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:226 includes/class-codir2me-i18n.php:97
+msgid "Carregando imagens processadas recentemente..."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:227 includes/class-codir2me-i18n.php:98
+#: includes/class-codir2me-image-reprocessor.php:2408
+msgid "Nenhuma imagem selecionada. Clique em \"Selecionar Imagens\" para escolher quais imagens processar."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:229 includes/class-codir2me-i18n.php:100
+#, php-format
+msgid "%d imagens selecionadas"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:232 includes/class-codir2me-i18n.php:81
+msgid "Aplicar Valores do Nível Selecionado"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:233 includes/class-codir2me-i18n.php:82
+msgid "Isso aplicará os valores predefinidos do nível selecionado às configurações avançadas."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:234
+msgid "Esconder Configurações Avançadas"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:236 includes/class-codir2me-i18n.php:83
+msgid "Valores aplicados!"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:237 includes/class-codir2me-i18n.php:61
+msgid "Tem certeza que deseja redefinir todas as estatísticas de otimização? Esta ação não pode ser desfeita."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:240 includes/class-codir2me-i18n.php:60
+msgid "Tem certeza que deseja limpar todos os logs? Esta ação não pode ser desfeita."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:246 includes/class-codir2me-i18n.php:89
+msgid "Ordem alterada. Clique em \"Salvar Prioridade de Formatos\" para aplicar as mudanças."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:247 includes/class-codir2me-i18n.php:66
+msgid "Detalhes do Log:"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:248 includes/class-codir2me-i18n.php:67
+msgid "Detalhes do Erro:"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:249 includes/class-codir2me-i18n.php:68
+msgid "Erro de conexão. Por favor, tente novamente."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:250 includes/class-codir2me-i18n.php:70
+msgid "Erro ao carregar mais logs. Por favor, tente novamente."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:251 includes/class-codir2me-i18n.php:69
+msgid "Erro ao carregar mais logs:"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:254 includes/class-codir2me-i18n.php:73
+msgid "Upload automático de miniaturas ativado:"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:255 includes/class-codir2me-i18n.php:74
+msgid "As miniaturas selecionadas serão enviadas automaticamente para o R2 quando novas imagens forem adicionadas."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:256 includes/class-codir2me-i18n.php:75
+msgid "Ative o CDN de imagens primeiro para usar esta opção."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:257 includes/class-codir2me-i18n.php:76
+msgid "Mude a opção \"Tamanhos de Miniatura\" para ativar esta função."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:260 includes/class-codir2me-i18n.php:101
+msgid "Remover"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:261 includes/class-codir2me-i18n.php:102
+msgid "Selecionar Imagens para Upload"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:262 includes/class-codir2me-i18n.php:103
+#: includes/class-codir2me-image-reprocessor.php:2394
+msgid "Selecionar Imagens"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:263 includes/class-codir2me-i18n.php:104
+msgid "Erro ao carregar visualização das imagens."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:264 includes/class-codir2me-i18n.php:105
+msgid "Erro ao carregar visualização das imagens. Tente novamente."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:265 includes/class-codir2me-i18n.php:106
+#: includes/class-codir2me-image-reprocessor.php:2271
+msgid "Pausado"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:266 includes/class-codir2me-i18n.php:107
+#: includes/class-codir2me-image-reprocessor.php:2271
+msgid "Executando"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:313
+msgid "Erro ao carregar visualização. Tente novamente."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:400
+msgid "Atualizado!"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:401 includes/class-codir2me-i18n.php:85
+msgid "Erro:"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:402
+msgid "Erro de conexão. Tente novamente."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:403
+msgid "Processando..."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:404
+msgid "Sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:405
+msgid "Falhou!"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:552 includes/class-codir2me-admin.php:759
+msgid "Configurações"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:850
+msgid "Log limpo por solicitação do administrador"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1123
+msgid "Caminho de arquivo inválido."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1157
+msgid "Tipo de arquivo não suportado para reenvio."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1169
+#: includes/class-codir2me-images-handler.php:1237
+#, php-format
+msgid "Arquivo não encontrado: %s"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1181
+msgid "Uploader não disponível."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1191
+msgid "Arquivo reenviado manualmente:"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1202
+msgid "Erro ao reenviar arquivo"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1388
+msgid "Falha na verificação do nonce para escaneamento de arquivos estáticos"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1425
+msgid "Falha na verificação do nonce para processamento de lote de arquivos estáticos"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1493
+msgid "Falha na verificação do nonce para escaneamento de imagens"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1530
+msgid "Falha na verificação do nonce para processamento de lote de imagens"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1599
+msgid "Falha na verificação do nonce para limpeza de arquivos enviados"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1614
+msgid "Limpando lista de arquivos enviados por solicitação do administrador"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1689
+msgid "Arquivo de log limpo com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1697
+msgid "O arquivo de log não foi encontrado."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1706
+msgid "Upload de arquivos estáticos concluído com sucesso! Todos os arquivos foram enviados para o Cloudflare R2."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1718
+#, php-format
+msgid "Erro ao enviar arquivos estáticos: %s"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1730
+msgid "Upload de imagens concluído com sucesso! Todas as imagens foram enviadas para o Cloudflare R2."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1742
+#, php-format
+msgid "Erro ao enviar imagens: %s"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1754
+msgid "Estatísticas de miniaturas recalculadas com sucesso! Os dados agora estão atualizados."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1765
+msgid "Upload em lotes iniciado automaticamente. Aguarde..."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1777
+msgid "Upload de imagens em lotes iniciado automaticamente. Aguarde..."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1787
+msgid "Lista de arquivos enviados limpa com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1796
+msgid "Erro de segurança. Por favor, tente novamente."
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1805
+msgid "Configurações de exclusão automática salvas com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1839
+#: includes/class-codir2me-admin.php:1908
+msgid "Verificação de segurança falhou"
+msgstr ""
+
+#: includes/class-codir2me-admin.php:1929
+msgid "Processo de exclusão cancelado pelo usuário"
+msgstr ""
+
+#: includes/class-codir2me-assets-handler.php:318
+msgid "Iniciando escaneamento de arquivos estáticos"
+msgstr ""
+
+#: includes/class-codir2me-assets-handler.php:352
+#, php-format
+msgid "Escaneamento concluído. Encontrados %d arquivos pendentes."
+msgstr ""
+
+#: includes/class-codir2me-assets-handler.php:537
+#: includes/class-codir2me-auto-upload.php:179
+#, php-format
+msgid "Erro ao enviar arquivo %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-auto-delete-handler.php:155
+#, php-format
+msgid "R2 CDN - Erro ao inicializar uploader para exclusão automática: %s"
+msgstr ""
+
+#: includes/class-codir2me-auto-delete-handler.php:188
+msgid "R2 CDN - Uploader não disponível para exclusão automática"
+msgstr ""
+
+#: includes/class-codir2me-auto-delete-handler.php:313
+#, php-format
+msgid "R2 CDN - Erro ao excluir miniatura %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-auto-delete-handler.php:326
+#, php-format
+msgid "R2 CDN - Miniatura %s mantida conforme configuração"
+msgstr ""
+
+#: includes/class-codir2me-auto-delete-handler.php:352
+#, php-format
+msgid "R2 CDN - Exclusão automática: Original %1$s, %2$d/%3$d miniaturas excluídas (modo: %4$s) - Anexo %5$d"
+msgstr ""
+
+#: includes/class-codir2me-auto-delete-handler.php:366
+#, php-format
+msgid "R2 CDN - Erro durante exclusão automática do anexo %1$d: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:105
+#, php-format
+msgid "Agendamento automático de upload configurado com frequência: %s"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:119
+msgid "Iniciando verificação automática de arquivos estáticos modificados"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:129
+msgid "Uploader não disponível para verificação automática"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:137
+msgid "Assets handler não disponível para verificação automática"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:151
+msgid "Nenhum arquivo estático modificado encontrado durante verificação automática"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:174
+#, php-format
+msgid "Arquivo atualizado automaticamente: %s"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:190
+#, php-format
+msgid "Verificação automática concluída: %d arquivos atualizados"
+msgstr ""
+
+#: includes/class-codir2me-auto-upload.php:351
+#, php-format
+msgid "Detectada atualização de %s. Iniciando verificação de arquivos..."
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:52
+msgid "Permissão insuficiente."
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:74
+msgid "ID de imagem inválido."
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:80
+msgid "Miniatura não disponível."
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:104
+#: includes/class-codir2me-background-processor.php:242
+msgid "A cada 5 minutos (usar com cautela)"
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:114
+#: includes/class-codir2me-background-processor.php:258
+#, php-format
+msgid "Intervalo personalizado (%d segundos)"
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:133
+msgid "Nenhum processamento em andamento."
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:146
+msgid "Processamento concluído com sucesso."
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:206
+#, php-format
+msgid "Imagem %d processada com sucesso."
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:218
+#, php-format
+msgid "Erro ao processar imagem %1$d: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:248
+msgid "A cada 30 minutos"
+msgstr ""
+
+#: includes/class-codir2me-background-processor.php:298
+#, php-format
+msgid "Processamento em segundo plano concluído. Total processado: %d imagens."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:189
+msgid "Sua versão do PHP é compatível."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:196
+#, php-format
+msgid "A versão atual do PHP (%1$s) é menor que a mínima recomendada (%2$s)."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:213
+msgid "Versão do WordPress"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:217
+msgid "Sua versão do WordPress é compatível."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:223
+#, php-format
+msgid "A versão atual do WordPress (%1$s) é menor que a mínima recomendada (%2$s)."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:250
+msgid "Extensões PHP"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:254
+msgid "Todas as extensões PHP necessárias estão instaladas."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:259
+msgid "Extensões PHP necessárias estão faltando."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:262
+msgid "Extensões PHP recomendadas estão faltando."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:309
+#: includes/class-codir2me-environment-checker.php:324
+#: includes/class-codir2me-environment-checker.php:339
+msgid "Não tem permissão de escrita"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:318
+#: includes/class-codir2me-environment-checker.php:333
+msgid "Não foi possível criar o diretório"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:344
+msgid "Permissões de Diretório"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:348
+msgid "Todas as permissões de diretório estão corretas."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:349
+msgid "Existem problemas com as permissões de diretório."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:371
+msgid "AsyncAws SDK"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:376
+msgid "AsyncAws SDK está instalado corretamente."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:377
+msgid "AsyncAws SDK não está instalado ou está incompleto."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:390
+msgid "Conexão com o R2"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:394
+msgid "Configurações do R2 não encontradas."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:404
+msgid "Testando conexão com o R2..."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:409
+msgid "AsyncAws SDK não encontrado. Não é possível testar a conexão com o R2."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:417
+#: includes/class-codir2me-scanner.php:84
+msgid "Classe AsyncAws\\S3\\S3Client não encontrada. Verifique a instalação do AsyncAws SDK."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:448
+msgid "Conexão com o R2 estabelecida com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:453
+#, php-format
+msgid "Falha na conexão HTTP com R2: %s"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:461
+#, php-format
+msgid "Configurações inválidas: %s"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:465
+#, php-format
+msgid "Erro inesperado: %s"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:483
+#, php-format
+msgid "Atualize o PHP para a versão %s ou superior."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:489
+#, php-format
+msgid "Atualize o WordPress para a versão %s ou superior."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:499
+#, php-format
+msgid "Instale a extensão PHP <strong>%1$s</strong>: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:506
+#, php-format
+msgid "Recomendado: Instale a extensão PHP <strong>%1$s</strong>: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:515
+#, php-format
+msgid "Ajuste as permissões para o diretório <code>%1$s</code>: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:521
+msgid "Instale o AsyncAws SDK para PHP executando: composer require async-aws/s3"
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:527
+msgid "Verifique suas credenciais e configurações do R2. A conexão falhou."
+msgstr ""
+
+#: includes/class-codir2me-environment-checker.php:529
+#: includes/class-codir2me-environment-checker.php:532
+msgid "Configure suas credenciais do Cloudflare R2 nas configurações do plugin."
+msgstr ""
+
+#: includes/class-codir2me-i18n.php:62
+msgid "ATENÇÃO: Esta ação excluirá permanentemente os arquivos selecionados do seu bucket R2. O processo será executado em lotes.\\n\\nDeseja continuar?"
+msgstr ""
+
+#: includes/class-codir2me-i18n.php:63
+msgid "Tem certeza que deseja parar o processo de reprocessamento? O progresso será perdido e você terá que recomeçar."
+msgstr ""
+
+#: includes/class-codir2me-i18n.php:80
+msgid "Ocultar Configurações Avançadas"
+msgstr ""
+
+#: includes/class-codir2me-i18n.php:84
+msgid "Processando imagem, aguarde..."
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:420
+#, php-format
+msgid "R2 CDN - Erro: codir2me_optimize_image recebeu um parâmetro file_path não-string: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:429
+msgid "Caminho do arquivo inválido"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:439
+#: includes/class-codir2me-static-media-cdn.php:503
+msgid "Otimização desativada"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:449
+msgid "Arquivo não é uma imagem"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:459
+msgid "Requisitos para otimização não estão disponíveis"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:473
+msgid "Não foi possível obter informações da imagem"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:503
+msgid "Erro ao criar arquivo temporário"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:541
+#, php-format
+msgid "Erro durante otimização: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:694
+#, php-format
+msgid "R2 CDN - Erro ao ler arquivo fonte: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:706
+#, php-format
+msgid "R2 CDN - Arquivo convertido salvo localmente: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:715
+#, php-format
+msgid "R2 CDN - Erro ao salvar arquivo localmente: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:790
+#, php-format
+msgid "R2 CDN - Erro ao otimizar JPEG: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:867
+#, php-format
+msgid "R2 CDN - Erro ao otimizar PNG: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:930
+#, php-format
+msgid "R2 CDN - Erro ao otimizar WebP: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:948
+msgid "R2 CDN - Função imagewebp não está disponível"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:968
+msgid "R2 CDN - Não foi possível obter informações da imagem para WebP"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1037
+msgid "R2 CDN - Falha ao criar imagem para conversão WebP"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1044
+msgid "R2 CDN - Função imagewebp não disponível"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1053
+msgid "R2 CDN - Falha ao salvar arquivo WebP"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1059
+msgid "R2 CDN - Arquivo WebP criado tem tamanho zero ou não existe"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1069
+#, php-format
+msgid "R2 CDN - Conversão para WebP bem-sucedida, tamanho: %d bytes"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1079
+#, php-format
+msgid "R2 CDN - Erro ao converter para WebP: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1103
+msgid "R2 CDN - Função imageavif não está disponível"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1110
+#, php-format
+msgid "R2 CDN - Iniciando conversão para AVIF: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1129
+#, php-format
+msgid "R2 CDN - Arquivo AVIF de destino: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1138
+msgid "R2 CDN - Não foi possível obter informações da imagem para AVIF"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1146
+#, php-format
+msgid "R2 CDN - Tipo de imagem detectado: %d"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1158
+msgid "R2 CDN - Carregando imagem JPEG"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1161
+msgid "R2 CDN - Carregando imagem PNG"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1191
+msgid "R2 CDN - Carregando imagem GIF"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1230
+msgid "R2 CDN - Carregando imagem WebP"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1234
+msgid "R2 CDN - Função imagecreatefromwebp não disponível"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1241
+#, php-format
+msgid "R2 CDN - Tipo de imagem não suportado: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1250
+msgid "R2 CDN - Falha ao criar imagem para conversão AVIF"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1262
+#, php-format
+msgid "R2 CDN - Salvando imagem AVIF com qualidade: %d"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1269
+msgid "R2 CDN - Função imageavif não disponível no momento da conversão"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1289
+msgid "R2 CDN - Falha ao salvar arquivo AVIF"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1295
+msgid "R2 CDN - Arquivo AVIF não foi criado corretamente"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1305
+#, php-format
+msgid "R2 CDN - Conversão AVIF bem-sucedida: %d bytes"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1315
+#, php-format
+msgid "R2 CDN - Erro ao converter para AVIF: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1394
+#, php-format
+msgid "R2 CDN - codir2me_is_image recebeu um parâmetro inválido: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1412
+#, php-format
+msgid "R2 CDN - Arquivo não existe: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1470
+msgid "R2 CDN - Aviso: Requisitos para otimização de imagens não estão disponíveis."
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1791
+msgid "Limpando arquivos temporários após upload"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1808
+#, php-format
+msgid "Removendo arquivo otimizado temporário: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1828
+#, php-format
+msgid "Removendo arquivo WebP temporário: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1848
+#, php-format
+msgid "Removendo arquivo AVIF temporário: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1862
+#, php-format
+msgid "Erro ao limpar arquivos temporários: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1907
+#, php-format
+msgid "Arquivo temporário antigo removido: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1924
+msgid "Diretório temporário vazio removido"
+msgstr ""
+
+#: includes/class-codir2me-image-optimizer.php:1933
+#, php-format
+msgid "Erro ao limpar arquivos temporários gerais: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:127
+#, php-format
+msgid "Registro de imagens processadas inicializado. Total de registros: %d"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:317
+#, php-format
+msgid "Registro de imagens processadas salvo. Total de registros: %d"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:440
+#, php-format
+msgid "Primeiro lote agendado para: %1$s (em %2$d segundos)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:451
+#, php-format
+msgid ""
+"=== PROCESSAMENTO EM SEGUNDO PLANO INICIADO ===\n"
+"Total de imagens: %1$d\n"
+"Total de lotes: %2$d\n"
+"Tamanho do lote: %3$d\n"
+"Primeiro lote em: %4$d segundos\n"
+"Intervalo entre lotes: 15 minutos\n"
+"Tempo estimado total: %5$s\n"
+"WebP: %6$s | AVIF: %7$s"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:458
+#, php-format
+msgid "%1$dh %2$dmin"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:459
+#: includes/class-codir2me-image-reprocessor.php:460
+msgid "SIM"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:459
+#: includes/class-codir2me-image-reprocessor.php:460
+msgid "NÃO"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:502
+msgid "Processo de reprocessamento não está ativo - cancelando execução"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:526
+#, php-format
+msgid ""
+"=== EXECUTANDO PRIMEIRO LOTE ===\n"
+"Delay desde o início: %d segundos\n"
+"Execução agendada funcionou corretamente"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:535
+#, php-format
+msgid ""
+"=== EXECUTANDO LOTE %1$d ===\n"
+"Última execução: %2$s (%3$d segundos atrás)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:549
+msgid "Nenhuma imagem restante para reprocessar - finalizando processo"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:560
+#: includes/class-codir2me-image-reprocessor.php:878
+msgid "Evento cron cancelado - processo concluído"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:574
+#, php-format
+msgid ""
+"=== PROCESSO DE REPROCESSAMENTO CONCLUÍDO ===\n"
+"Tempo total: %1$s\n"
+"Imagens processadas: %2$d\n"
+"Lotes executados: %3$d"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:577
+#, php-format
+msgid "%1$d h %2$d min"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:579
+#, php-format
+msgid "%1$d minutos"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:604
+#, php-format
+msgid ""
+"=== INICIANDO LOTE DE REPROCESSAMENTO ===\n"
+"\tLote atual: %1$d/%2$d\n"
+"\tTamanho do lote: %3$d imagens\n"
+"\tImagens restantes: %4$d\n"
+"\tLotes restantes: %5$d\n"
+"\tTempo estimado restante: %6$d minutos\n"
+"\tPróxima execução: %7$s (em 15 minutos)\n"
+"\tWebP: %8$s | AVIF: %9$s\n"
+"\tMemória atual: %10$s\n"
+"\tTempo limite PHP: %11$ds"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:650
+#, php-format
+msgid "Otimizador configurado em %.2fms"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:667
+#, php-format
+msgid "Imagem %d já processada neste lote, pulando."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:682
+#, php-format
+msgid "Imagem ID %d não encontrada - pulando"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:699
+#, php-format
+msgid "Processando imagem ID %1$d (%2$s - %3$s)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:775
+#: includes/class-codir2me-image-reprocessor.php:1325
+#, php-format
+msgid "Miniaturas processadas: %1$d processadas, %2$d erros, %3$d puladas"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:797
+#, php-format
+msgid "✓ Imagem ID %1$d processada em %2$.2fms (upload: %3$.2fms)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:812
+#, php-format
+msgid "✗ Falha ao processar imagem ID %1$d em %2$.2fms (resultado: %3$s)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:828
+#, php-format
+msgid "✗ ERRO ao processar imagem ID %1$d em %2$.2fms: %3$s"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:861
+#, php-format
+msgid "Lote processado: %1$d imagens. Restam: %2$d imagens na fila"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:885
+msgid "Processo de reprocessamento em segundo plano concluído"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:905
+#, php-format
+msgid ""
+"=== LOTE DE REPROCESSAMENTO CONCLUÍDO ===\n"
+"Imagens processadas: %1$d/%2$d\n"
+"Sucessos: %3$d | Erros: %4$d\n"
+"Tempo processamento: %5$.2fms\n"
+"Tempo total do lote: %6$.2fms\n"
+"Velocidade: %7$.1f imagens/segundo\n"
+"Atualização BD: %8$.2fms\n"
+"Progresso: %9$d/%10$d (%11$.1f%%)\n"
+"Restam: %12$d imagens (%13$d lotes)\n"
+"Próxima execução: %14$s (em 15 minutos)\n"
+"Tempo estimado restante: %15$d minutos\n"
+"Memória pico: %16$s"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:941
+msgid "Intervalo de cron de 15 minutos registrado"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:973
+#, php-format
+msgid "Evento cancelado: %1$s (timestamp: %2$d)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:982
+msgid "Processo anterior cancelado e backup criado"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1006
+msgid "Limpeza de processo anterior concluída"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1082
+#, php-format
+msgid "Iniciando reprocessamento de imagens no modo normal. Total de imagens: %1$d, Lotes: %2$d"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1107
+msgid "Evitando processamento duplicado"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1143
+msgid "Reprocessamento retomado pelo usuário"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1146
+msgid "Verificando se há evento de cron agendado..."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1149
+msgid "Nenhum evento de cron agendado, agendando novo evento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1158
+#, php-format
+msgid "Novo evento agendado para %s (60 segundos)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1350
+#, php-format
+msgid "Erro ao processar imagem ID %1$d: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1386
+#, php-format
+msgid "Lote processado: %1$d sucessos, %2$d erros. Restam: %3$d imagens"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1418
+msgid "Processo de reprocessamento concluído com sucesso"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1482
+msgid "Reprocessamento pausado pelo usuário"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1522
+#, php-format
+msgid "Processo de reprocessamento cancelado pelo usuário após processar %d imagens"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1642
+#, php-format
+msgid "Iniciando upload manual de imagens. Total de imagens: %1$d, Lotes: %2$d"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1778
+#, php-format
+msgid "Miniatura %s processada com sucesso."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1791
+#, php-format
+msgid "Erro ao processar miniatura %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1835
+#, php-format
+msgid "Removendo arquivo temporário: %s"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:1894
+msgid "Nenhuma imagem selecionada."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2013
+#, php-format
+msgid "Configurações de reprocessamento atualizadas: WebP=%1$s, AVIF=%2$s, Miniaturas=%3$s, Tamanho do lote=%4$d"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2014
+#: includes/class-codir2me-image-reprocessor.php:2015
+#: includes/class-codir2me-image-reprocessor.php:2016
+msgid "ativado"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2014
+#: includes/class-codir2me-image-reprocessor.php:2015
+#: includes/class-codir2me-image-reprocessor.php:2016
+msgid "desativado"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2058
+msgid "Reprocessamento de imagens concluído com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2067
+msgid "Reprocessamento de imagens iniciado com sucesso! O processo está sendo executado em segundo plano."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2076
+msgid "Reprocessamento de imagens pausado. Você pode retomar o processo a qualquer momento clicando em \"Continuar Reprocessamento\"."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2085
+msgid "Reprocessamento de imagens cancelado com sucesso."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2094
+msgid "Configurações de reprocessamento salvas com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2103
+msgid "Não há nenhum processo de reprocessamento em andamento."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2112
+msgid "Erro ao inicializar o uploader. Verifique as configurações de conexão com o R2."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2121
+msgid "Nenhuma imagem foi selecionada para processamento."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2130
+msgid "Os IDs de imagem fornecidos são inválidos."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2142
+msgid "Você não tem permissão para acessar esta página."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2178
+msgid "Essa ferramenta permite reenviar imagens para o R2, forçando a otimização e aplicando suas configurações atuais."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2189
+msgid "Configurações de Reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2200
+msgid "Número de imagens reprocessadas por lote (recomendado: 20)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2204
+msgid "Opções de Conversão"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2213
+msgid "Forçar conversão para WebP"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2215
+msgid "Gera versões WebP das imagens durante o reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2224
+msgid "Forçar conversão para AVIF"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2226
+msgid "Gera versões AVIF das imagens durante o reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2235
+msgid "Reprocessar Miniaturas"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2237
+msgid "Aplica as conversões WebP/AVIF também nas miniaturas durante o reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2242
+msgid "Selecione os formatos de imagem que deseja forçar durante o reprocessamento. As conversões só serão aplicadas se as respectivas opções estiverem ativadas nas configurações de otimização."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2254
+msgid "Reprocessar Todas as Imagens"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2262
+msgid "Reprocessamento em Segundo Plano"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2263
+msgid "Reprocessamento em Andamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2279
+msgid "Progresso geral:"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2289
+msgid "O reprocessamento está ocorrendo em segundo plano. Você pode fechar esta página e o processo continuará."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2301
+msgid "Continuar Reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2312
+msgid "Continuar Reprocessamento (Próximo Lote)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2322
+msgid "Pausar Reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2332
+msgid "Parar Reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2340
+msgid "Reprocesse todas as imagens da sua biblioteca de mídia no R2, aplicando as configurações atuais de otimização."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2341
+msgid "Você pode escolher entre duas opções de processamento:"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2347
+msgid "Processamento em Segundo Plano"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2349
+msgid "O processamento ocorre automaticamente mesmo quando você fecha a página. Ideal para grandes bibliotecas de imagens."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2355
+msgid "Iniciar Processamento em Segundo Plano"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2363
+msgid "Processamento Normal"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2365
+msgid "Acompanhe o progresso em tempo real. Você precisa manter esta página aberta durante todo o processamento."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2371
+msgid "Iniciar Processamento Normal"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2382
+msgid "Upload Manual de Imagens"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2383
+msgid "Selecione imagens específicas para enviar ao R2, em vez de processar toda a biblioteca."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2396
+msgid "0 imagens selecionadas"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2402
+msgid "As imagens selecionadas serão processadas usando as configurações de conversão definidas acima (WebP, AVIF e Miniaturas)."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2414
+msgid "Iniciar Upload das Imagens Selecionadas"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2437
+msgid "Sobre o Reprocessamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2439
+msgid "Esta ferramenta permite reenviar imagens para o Cloudflare R2, aplicando as configurações atuais de otimização."
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2440
+msgid "Utilize quando:"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2442
+msgid "Alterou as configurações de otimização"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2443
+msgid "Ativou novos formatos (WebP/AVIF)"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2444
+msgid "Imagens não aparecem no site"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2445
+msgid "Perceber problemas com imagens específicas"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2451
+msgid "Modos de Processamento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2453
+msgid "Processamento em Segundo Plano:"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2455
+msgid "Continua executando mesmo ao fechar a página"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2456
+msgid "Ideal para sites com muitas imagens"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2457
+msgid "Menor impacto no desempenho do site"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2458
+msgid "Pode ser pausado e retomado a qualquer momento"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2460
+msgid "Processamento Normal:"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2462
+msgid "Exibe atualizações em tempo real"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2463
+msgid "Você precisa manter a página aberta"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2464
+msgid "Melhor para conjuntos menores de imagens"
+msgstr ""
+
+#: includes/class-codir2me-image-reprocessor.php:2465
+msgid "Mais adequado para monitoramento direto"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:328
+#, php-format
+msgid "URL modificada para CDN - Anexo ID: %1$d, Caminho: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:342
+#, php-format
+msgid "Imagem não encontrada no CDN - Anexo ID: %1$d, Caminho: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:449
+#, php-format
+msgid "Processando novo anexo ID: %s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:466
+#, php-format
+msgid "CDN de imagens não está ativo. Pulando anexo ID: %s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:482
+#, php-format
+msgid "Anexo ID %1$s não é uma imagem (MIME: %2$s). Pulando."
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:499
+#, php-format
+msgid "Arquivo não encontrado para anexo ID %1$s (caminho: %2$s)"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:518
+#, php-format
+msgid "Imagem do anexo ID %1$s já foi enviada (%2$s). Pulando."
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:543
+#, php-format
+msgid "Configuração R2 \"%1$s\" vazia para processamento do anexo %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:565
+msgid "Não foi possível criar instância do uploader"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:572
+#, php-format
+msgid "Erro ao inicializar uploader para anexo %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:588
+#, php-format
+msgid "Iniciando upload da imagem original - Anexo ID: %1$s, Caminho: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:634
+#, php-format
+msgid "✅ SUCESSO: Upload da imagem original: %1$s (Anexo ID: %2$s)"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:645
+#, php-format
+msgid "❌ FALHA: Upload da imagem original: %1$s (Anexo ID: %2$s)"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:657
+#, php-format
+msgid "❌ EXCEÇÃO: Erro no upload do anexo %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:684
+#, php-format
+msgid "Upload de miniaturas desabilitado para anexo %1$s (CDN: %2$s, Auto: %3$s)"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:737
+#, php-format
+msgid "Miniaturas processadas para anexo %1$s. Resultado: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:749
+#, php-format
+msgid "Erro ao processar miniaturas do anexo %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:873
+msgid "enviado"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:875
+msgid "falha no upload"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:878
+#, php-format
+msgid "Falha ao enviar miniatura %s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:883
+msgid "erro:"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:886
+#, php-format
+msgid "Erro ao enviar miniatura %s:"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:891
+msgid "arquivo não encontrado"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:895
+msgid "metadados não disponíveis"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:898
+msgid "desativado nas configurações"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:963
+msgid "Iniciando escaneamento de imagens"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1081
+#, php-format
+msgid "Escaneamento de imagens concluído. Encontradas %1$d imagens, %2$d pendentes."
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1098
+#, php-format
+msgid "Iniciando processamento de lote de imagens. Tamanho do lote: %d"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1120
+msgid "Processamento de imagens concluído - nenhuma imagem pendente"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1138
+#, php-format
+msgid "Processando %1$d imagens de %2$d pendentes"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1162
+#, php-format
+msgid "Processando imagem: %s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1185
+#, php-format
+msgid "Upload de conversões - WebP: %s, AVIF: %s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1223
+#, php-format
+msgid "Upload bem-sucedido: %s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1227
+#, php-format
+msgid "Falha no upload: %s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1232
+#, php-format
+msgid "Erro ao processar %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1244
+#, php-format
+msgid "Lote concluído: %1$d/%2$d imagens processadas"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1273
+#, php-format
+msgid "Processo de upload de imagens concluído. Total processado: %d imagens"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1281
+#, php-format
+msgid "Lote processado: %1$d imagens. Restam: %2$d imagens"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1420
+#, php-format
+msgid "WebP: Nível %s - Qualidade aplicada: %d%%"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1564
+#, php-format
+msgid "AVIF: Nível %s - Qualidade aplicada: %d%%"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1620
+#, php-format
+msgid "Processando conversões com nível de otimização: %s (WebP: %s, AVIF: %s)"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1636
+msgid "Falha na conversão para WebP"
+msgstr ""
+
+#: includes/class-codir2me-images-handler.php:1647
+msgid "Falha na conversão para AVIF"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:57
+msgid "codir2me_License_Manager: Valor de expiração corrigido de string para timestamp"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:60
+msgid "codir2me_License_Manager: Valor de expiração inválido encontrado e redefinido para 0"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:85
+msgid "codir2me_License_Manager: Falha ao obter chave da API"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:101
+msgid "Iniciando verificação forçada de licença"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:137
+msgid "Verificação forçada: Enviando requisição para API de verificação de licença"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:143
+msgid "Verificação forçada: Erro na requisição"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:162
+msgid "Verificação forçada: Resposta API - Código:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:162
+#: includes/class-codir2me-license-manager.php:405
+msgid "Corpo:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:177
+msgid "Verificação forçada: Corrigindo lastDomainChange de 0 para"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:184
+msgid "Verificação forçada: Licença validada com sucesso"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:205
+msgid "Verificação forçada: Licença inválida ou expirada. Código:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:250
+msgid "Período de Teste Encerrado:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:250
+msgid "Seu período de teste do Codirun R2 Media & Static CDN terminou."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:252
+msgid "Sua assinatura foi cancelada e não será renovada."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:254
+msgid "A cobrança será realizada automaticamente para ativar sua licença completa."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:262
+msgid "Licença Expirada:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:262
+msgid "Sua licença do Codirun R2 Media & Static CDN expirou."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:264
+msgid "Conforme solicitado, sua assinatura não será renovada."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:266
+msgid "A renovação automática está sendo processada. Se precisar de ajuda, entre em contato com nosso suporte em"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:330
+msgid "Verificação de licença: Licença ou email não fornecidos"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:340
+msgid "Verificação de licença: Domínio alterado de"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:340
+msgid "para"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:350
+msgid "Licença Desativada:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:353
+#, php-format
+msgid "A licença foi desativada porque o domínio atual (%1$s) é diferente do domínio registrado (%2$s). Por favor, ative a licença novamente ou troque o domínio registrado."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:370
+msgid "Verificação de licença: Corrigindo lastDomainChange de 0 para"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:389
+msgid "Verificação de licença: Iniciando verificação para"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:389
+msgid "domínio"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:395
+msgid "Verificação de licença: Erro de conexão"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:405
+msgid "Verificação de licença: Resposta recebida - Código:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:409
+msgid "Verificação de licença: Licença expirada"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:418
+msgid "Verificação de licença: Data de expiração atualizada para"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:427
+msgid "Verificação de licença: Licença válida"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:438
+msgid "Verificação de licença: Licença inválida - Código:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:453
+#: includes/class-codir2me-license-manager.php:566
+#: includes/class-codir2me-license-manager.php:600
+msgid "Erro de segurança. Por favor, recarregue a página e tente novamente."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:458
+#: includes/class-codir2me-license-manager.php:571
+#: includes/class-codir2me-license-manager.php:605
+msgid "Você não tem permissão para realizar esta ação."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:466
+msgid "Por favor, forneça uma chave de licença válida."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:470
+msgid "Por favor, forneça um email válido."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:497
+#: includes/class-codir2me-license-manager.php:672
+msgid "Erro de conexão:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:506
+#: includes/class-codir2me-license-manager.php:687
+msgid "desconhecida"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:508
+#: includes/class-codir2me-license-manager.php:689
+#, php-format
+msgid "Licença expirada. Data de expiração: %s"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:521
+msgid "Ativação de licença: Inicializando lastDomainChange com timestamp no passado:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:526
+msgid "Ativação de licença: Status de trial"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:532
+msgid "Processado timestamp:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:537
+msgid "Salvando data de expiração:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:547
+msgid "Usando data de expiração"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:547
+msgid "de teste (7 dias)"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:547
+msgid "padrão (1 ano)"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:551
+msgid "Licença ativada com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:553
+msgid "Erro ao ativar licença. Código:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:580
+msgid "Desativando licença: email="
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:580
+msgid "domínio="
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:589
+msgid "Licença desativada com sucesso!"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:611
+msgid "Sua licença não está ativa. Por favor, ative sua licença primeiro."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:617
+msgid "Sua licença expirou. Por favor, renove sua licença para continuar."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:627
+#, php-format
+msgid "Você precisa esperar mais %d dias para mudar o domínio novamente."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:636
+msgid "Nenhuma licença ativa para mudar de domínio."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:643
+msgid "Por favor, forneça um novo domínio válido."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:681
+msgid "Você precisa esperar mais tempo para trocar de domínio."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:694
+msgid "Erro ao trocar domínio. Tente novamente mais tarde."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:726
+#, php-format
+msgid "Domínio alterado com sucesso para %s. Licença desativada neste site."
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:932
+msgid "Data de cancelamento:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:936
+msgid "Usando data de:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:944
+msgid "Definida data de expiração padrão:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:954
+#: includes/class-codir2me-license-manager.php:1051
+msgid "Timestamp arredondado para meia-noite:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:967
+msgid "Cálculo de dias:"
+msgstr ""
+
+#: includes/class-codir2me-license-manager.php:1041
+msgid "Formatando data de"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:78
+msgid "AsyncAws SDK não disponível. Por favor, instale o SDK manualmente."
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:111
+#, php-format
+msgid "Erro ao inicializar cliente S3: %s"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:296
+#, php-format
+msgid "Erro ao escanear o bucket R2: %s"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:342
+#: includes/class-codir2me-scanner.php:702
+msgid "Operação excedeu o tempo limite. Por favor, tente novamente ou use lotes menores."
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:454
+#, php-format
+msgid "Erro ao listar arquivos por formato: %s"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:523
+msgid "Não foi possível ler o conteúdo do arquivo do R2"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:528
+msgid "Arquivo baixado está vazio ou corrompido"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:540
+msgid "Erro ao salvar arquivo temporário"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:591
+#, php-format
+msgid "Erro ao importar arquivo: %s"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:873
+#, php-format
+msgid "Recálculo concluído: Total=%d, Estáticos=%d, Imagens=%d"
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:1006
+msgid "Operação excedeu o tempo limite durante a adição de arquivos."
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:1062
+msgid "Operação excedeu o tempo limite durante a remoção de arquivos."
+msgstr ""
+
+#: includes/class-codir2me-scanner.php:1171
+#, php-format
+msgid "Sincronização concluída. Arquivos: +%d/-%d, Imagens: +%d/-%d"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:256
+msgid "Por favor, configure suas credenciais do Cloudflare R2 nas configurações do plugin R2 Static & Media CDN para começar a usar o serviço."
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:314
+#, php-format
+msgid "R2 Static & Media CDN - Erro na inicialização: %s"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:462
+msgid "R2 CDN - Evitando recursão: resultado de otimização detectado"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:473
+#, php-format
+msgid "R2 CDN - Parâmetro de otimização inválido: %s"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:481
+msgid "Parâmetro inválido"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:487
+msgid "R2 CDN - Otimizador não disponível"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:492
+msgid "Otimizador não disponível"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:498
+msgid "R2 CDN - Otimização desativada globalmente"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:525
+#, php-format
+msgid "R2 CDN - Erro durante otimização: %s"
+msgstr ""
+
+#: includes/class-codir2me-static-media-cdn.php:578
+#, php-format
+msgid "R2 Static & Media CDN - Erro ao criar uploader: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:79
+msgid "AsyncAws S3 não disponível. Por favor, instale usando: composer require async-aws/s3"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:85
+msgid "Classe AsyncAws\\S3\\S3Client não encontrada. Verifique a instalação do AsyncAws S3."
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:102
+msgid "Cliente AsyncAws S3 inicializado com sucesso."
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:136
+#, php-format
+msgid "Erro ao verificar SDK: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:183
+#, php-format
+msgid "Erro ao obter versão do SDK: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:274
+#, php-format
+msgid "R2 CDN - Falha ao fazer upload de: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:283
+#, php-format
+msgid "R2 CDN - Upload bem-sucedido de: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:292
+#, php-format
+msgid "R2 CDN - Exceção ao fazer upload de: %1$s - %2$s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:321
+#, php-format
+msgid "Arquivo não encontrado ou parâmetro inválido: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:384
+msgid "Não foi possível ler o arquivo."
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:407
+#, php-format
+msgid "Upload direto concluído com sucesso para: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:421
+#, php-format
+msgid "Erro ao fazer upload direto: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:571
+#, php-format
+msgid "Erro durante upload otimizado: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:613
+#, php-format
+msgid "Objeto excluído com sucesso: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:627
+#, php-format
+msgid "Erro ao excluir objeto %1$s: %2$s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:649
+msgid "Lista de objetos vazia ou inválida."
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:686
+#, php-format
+msgid "Exclusão em lote concluída: %1$d objetos excluídos, %2$d falhas"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:705
+#, php-format
+msgid "Erro na exclusão em lote: %s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:828
+#, php-format
+msgid "Objeto copiado com sucesso de %1$s para %2$s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:843
+#, php-format
+msgid "Erro ao copiar objeto de %1$s para %2$s: %3$s"
+msgstr ""
+
+#: includes/class-codir2me-uploader.php:887
+#, php-format
+msgid "Erro ao gerar URL pré-assinada para %1$s: %2$s"
+msgstr ""
